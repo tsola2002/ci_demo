@@ -1,4 +1,3 @@
 ci_demo
 =======
-
-my personal codeigniter repository 
+my personal CRUD system built in codeigniter
