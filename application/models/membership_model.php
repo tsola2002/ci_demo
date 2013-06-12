@@ -8,7 +8,7 @@
  */
 
 
-class Membership_model extends CI_Model {
+class membership_model extends CI_Model {
 
     function validate(){
 
@@ -34,7 +34,18 @@ class Membership_model extends CI_Model {
 
 
 
+    function create_member(){
+        $new_member_insert_data = array(
+            'first_name' => $this->input->post('first_name'),
+            'last_name' => $this->input->post('last_name'),
+            'username' => $this->input->post('username'),
+            'password' => md5($this->input->post('password')),
+            'email' => $this->input->post('email')
+        );
 
+        $insert = $this->db->insert('membership', $new_member_insert_data);
+        return $insert;
+    }
 
 
 
