@@ -1,0 +1,4 @@
+1RewriteEngine On
+2RewriteCond %{REQUEST_FILENAME} !-f
+3RewriteCond %{REQUEST_FILENAME} !-d
+4RewriteRule ^(.*)$ ci_demo/index.php/$1 [L]
