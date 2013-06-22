@@ -16,6 +16,14 @@
     <title></title>
 </head>
 <body>
-Another view
+<h2>Test Email</h2>
+<p class="error"><?php echo $flash; ?></p>
+<form action="<?php base_url('send'); ?>" method="post">
+    <input name="name" value="name" type="text" />
+    <input type="text" name="email" value="email" />
+    <input type="text" name="message" value="message" />
+    <input type="submit" name="submit" value="send email" />
+</form>
+
 </body>
 </html>
