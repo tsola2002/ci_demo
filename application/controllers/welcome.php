@@ -2,6 +2,9 @@
 
 class Welcome extends Frontend_Controller {
 
+    //class Welcome extends Frontend_Controller
+    //for testing front end controller
+
 	/**
 	 * Index Page for this controller.
 	 *
