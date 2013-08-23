@@ -20,7 +20,7 @@ date_default_timezone_set('Europe/Amsterdam');
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
-
+/*
             switch (dirname(__FILE__)) {
                 case 'C:\xampp\htdocs\ci_demo':
                     define('ENVIRONMENT','development');
@@ -29,7 +29,7 @@ date_default_timezone_set('Europe/Amsterdam');
             default:
             define('ENVIRONMENT', 'production');
             break;
-            }
+            }*/
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
@@ -44,7 +44,7 @@ if (defined('ENVIRONMENT'))
 	switch (ENVIRONMENT)
 	{
 		case 'development':
-			error_reporting(E_ALL | E_STRICT);
+			error_reporting(E_ALL);
 		break;
 
 	 	case 'testing':
