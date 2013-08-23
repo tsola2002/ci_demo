@@ -17,6 +17,8 @@ class login extends CI_Controller {
 
     }
 
+
+
     function validate_credentials(){
 
         $this->load->model('membership_model');
