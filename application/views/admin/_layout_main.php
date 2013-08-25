@@ -28,7 +28,7 @@
         <!-- Main column -->
         <div class="span9">
             <section>
-                <h2>Page name</h2>
+                <?php $this->load->view($subview); ?>
             </section>
         </div>
         <!-- Sidebar -->

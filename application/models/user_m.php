@@ -28,6 +28,38 @@ class User_m extends MY_Model {
         )
     );
 
+    //another separate set of rules for admin users
+    //email fiels has callback function attached to it
+    //also password confirm needs to match password field
+    //order field needs to be a natural number
+    public $rules_admin = array(
+        'name' => array(
+            'field' => 'name',
+            'label' => 'Name',
+            'rules' => 'trim|required|xss_clean'
+        ),
+        'order' => array(
+            'field' => 'order',
+            'label' => 'Order',
+            'rules' => 'trim|is_natural'
+        ),
+        'email' => array(
+            'field' => 'email',
+            'label' => 'Email',
+            'rules' => 'trim|required|valid|callback__unique_email|xss_clean'
+        ),
+        'password' => array(
+            'field' => 'password',
+            'label' => 'Password',
+            'rules' => 'trim|matches[password_confirm]'
+        ),
+        'password_confirm' => array(
+            'field' => 'password_confirm',
+            'label' => 'Confirm password',
+            'rules' => 'trim|matches[password]'
+        ),
+    );
+
     /*function __construct ()
     {
         parent::__construct();
@@ -68,9 +100,8 @@ class User_m extends MY_Model {
         $this->session->sess_destroy();
     }
 
-    public function loggedin ()
+    public function loggedin (){
         //method to perform login check
-    {
         //return session variable logged in from data array
         //it is casted as a boolean so its either TRUE/FALSE
         return (bool) $this->session->userdata('loggedin');
