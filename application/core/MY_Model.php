@@ -15,12 +15,13 @@ class MY_Model extends CI_Model {
     protected $_primary_key = 'id';
     protected $_primary_filter = 'intval';
     protected $_order_by = '';
-    protected $_rules = array();
+    //$_rules need to be public inorder to be loaded in a controller
+    public $_rules = array();
     protected $_timestamps = FALSE;
 
-   // function  __construct(){
-     //   parent::__contruct();
-   // }
+   /* function  __construct(){
+        parent::__contruct();
+    }*/
 
     //GLOBAL MODEL GENERIC FUNCTIONS
 
@@ -49,6 +50,7 @@ class MY_Model extends CI_Model {
         }
         return $this->db->get($this->_table_name)->$method();
     }
+
         //pass an array as parameter for get by and single variable
         //to help return a single value
     public function get_by($where, $single = FALSE){

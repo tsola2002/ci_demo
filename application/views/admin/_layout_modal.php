@@ -17,6 +17,8 @@
 <body style="background: #555;">
 
 <div class="modal show" role="dialog">
+
+    <?php $this->load->view($subview); // Subview is set in controller ?>
     <div class="modal-header">
         <h3>Log in</h3>
     </div>
