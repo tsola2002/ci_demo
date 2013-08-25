@@ -16,6 +16,8 @@
 	<p>Please log in using your credentials</p>
 </div>
 <div class="modal-body">
+    <!--testing to see if databased session is generated after login-->
+    <?php //echo '<pre>' . print_r($this->session->userdata, TRUE) . '</pre>'; ?>
 <!--  generates dynamic codeigniter based errors incase they havent been filled  -->
 <?php echo validation_errors(); ?>
 <!--  creating a dynamic codeigniter-based form  -->

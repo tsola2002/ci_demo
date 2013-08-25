@@ -33,4 +33,56 @@ class User_m extends MY_Model {
         parent::__construct();
     }*/
 
+
+    public function login ()
+    {
+        //find user & store them in variable called $user
+        //through getby method which will grab email input
+        //we will also have to supply a hashed password
+        //TRUE will be passed so that we can retrieve a single user object
+        $user = $this->get_by(array(
+            'email' => $this->input->post('email'),
+            'password' => $this->hash($this->input->post('password')),
+        ), TRUE);
+
+        //check if user is present
+        if (count($user)) {
+            // Log in user by
+            //setting data array containing login information
+            $data = array(
+                'name' => $user->name,
+                'email' => $user->email,
+                'id' => $user->id,
+                'loggedin' => TRUE,
+            );
+            //store all this user info in session
+            //so that it will persist as long as possible
+            $this->session->set_userdata($data);
+        }
+    }
+
+    public function logout ()
+    {
+        //method to logout
+        //destroying session variable
+        $this->session->sess_destroy();
+    }
+
+    public function loggedin ()
+        //method to perform login check
+    {
+        //return session variable logged in from data array
+        //it is casted as a boolean so its either TRUE/FALSE
+        return (bool) $this->session->userdata('loggedin');
+    }
+
+    public function hash ($string)
+    {
+        //takes in string as a parameter
+        //then return it using a hash method
+        //string will be sorted using encryption key appended to it
+        //which will generate a long string
+        return hash('sha512', $string . config_item('encryption_key'));
+    }
+
 }

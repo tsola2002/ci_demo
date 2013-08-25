@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23c6da6-469d-458e-8c7a-be76837ce74c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/user/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/admin/user.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/user_m.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/migrations/003_create_sessions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/Admin_Controller.php" afterPath="$PROJECT_DIR$/application/libraries/Admin_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/_layout_modal.php" afterPath="$PROJECT_DIR$/application/views/admin/_layout_modal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/autoload.php" afterPath="$PROJECT_DIR$/application/config/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/user/login.php" afterPath="$PROJECT_DIR$/application/views/admin/user/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/migration.php" afterPath="$PROJECT_DIR$/application/config/migration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin/user.php" afterPath="$PROJECT_DIR$/application/controllers/admin/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/user_m.php" afterPath="$PROJECT_DIR$/application/models/user_m.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ci_demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377425015348" ignored="false" />
+    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377431408584" ignored="false" />
     <file path="/Sholly.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002030716" ignored="false" />
     <file path="/dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002460921" ignored="false" />
     <file path="/mycal.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371226985918" ignored="false" />
@@ -22,16 +23,17 @@
     <file path="/index.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377019441454" ignored="false" />
     <file path="/database.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377219247158" ignored="false" />
     <file path="/cms_config.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377018728188" ignored="false" />
-    <file path="/config.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377219689517" ignored="false" />
+    <file path="/config.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377437210313" ignored="false" />
     <file path="/_layout_main.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377226858659" ignored="false" />
     <file path="/dummy.xml" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377223065528" ignored="false" />
     <file path="/Admin_Controller.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377429717666" ignored="false" />
     <file path="/dashboard.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377221474753" ignored="false" />
     <file path="/page_tail.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377226511521" ignored="false" />
-    <file path="/user.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377427899053" ignored="false" />
-    <file path="/login.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377428821606" ignored="false" />
+    <file path="/user.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377439471415" ignored="false" />
+    <file path="/login.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377438920773" ignored="false" />
     <file path="/MY_Model.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377429264158" ignored="false" />
-    <file path="/user_m.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377429441172" ignored="false" />
+    <file path="/user_m.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377435684694" ignored="false" />
+    <file path="/003_create_sessions.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377435113082" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,75 +57,7 @@
     <favorites_list name="ci_demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MY_Model.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="7" selection-start="443" selection-end="508" vertical-scroll-proportion="0.67105263">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_m.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/user_m.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="7" selection-start="718" selection-end="788" vertical-scroll-proportion="-16.346153">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/admin/user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="4" selection-start="623" selection-end="623" vertical-scroll-proportion="-12.423077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_layout_modal.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/_layout_modal.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="73" selection-start="343" selection-end="343" vertical-scroll-proportion="-11.038462">
-              <folding>
-                <element signature="e#6#129#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/user/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="6" selection-start="339" selection-end="339" vertical-scroll-proportion="-12.423077">
-              <folding>
-                <element signature="e#6#121#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoload.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="48" selection-start="1969" selection-end="1969" vertical-scroll-proportion="-9.923077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Admin_Controller.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/libraries/Admin_Controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="37" selection-start="419" selection-end="419" vertical-scroll-proportion="-6.5384617">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -152,30 +86,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/config/routes.php" />
-        <option value="$PROJECT_DIR$/application/config/config.php" />
-        <option value="$PROJECT_DIR$/application/views/components/page_tail.php" />
-        <option value="$PROJECT_DIR$/application/views/components/page_head.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/dashboard.php" />
         <option value="$PROJECT_DIR$/application/views/_layout_main.php" />
         <option value="$PROJECT_DIR$/application/views/admin/components/page_tail.php" />
         <option value="$PROJECT_DIR$/application/views/admin/_layout_main.php" />
-        <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/views/admin/_layout_modal.php" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
-        <option value="$PROJECT_DIR$/application/controllers/admin/user.php" />
-        <option value="$PROJECT_DIR$/application/models/user_m.php" />
-        <option value="$PROJECT_DIR$/application/libraries/Admin_Controller.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/user/login.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
+        <option value="$PROJECT_DIR$/application/config/migration.php" />
+        <option value="$PROJECT_DIR$/application/config/database.php" />
+        <option value="$PROJECT_DIR$/application/migrations/003_create_sessions.php" />
+        <option value="dbtable:/e07bfa24/ffcb58b5-6969-40ad-808b-51a18136f649/ci_cms..users" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/models/user_m.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/user/login.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/user.php" />
+        <option value="$PROJECT_DIR$/application/libraries/Admin_Controller.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
+    <option name="x" value="-34" />
+    <option name="y" value="-13" />
+    <option name="width" value="889" />
     <option name="height" value="786" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -334,6 +268,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -396,12 +348,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Database.TableEditor.Splitter" value="0.90000004" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
@@ -501,29 +472,33 @@
       <created>1377229475424</created>
       <updated>1377229475424</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="07_creating login form with form validation checks">
+      <created>1377431422609</created>
+      <updated>1377431422609</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
-    <editor active="true" />
+    <frame x="-34" y="-13" width="889" height="786" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2614897" sideWeight="0.7771475" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2614897" sideWeight="0.7762999" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34035656" sideWeight="0.7385103" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19226119" sideWeight="0.7385103" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.7385103" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17423014" sideWeight="0.7385103" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27206773" sideWeight="0.7385103" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2614897" sideWeight="0.22285251" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2614897" sideWeight="0.22249094" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -572,7 +547,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="06_c modal template page added" />
+    <option name="LAST_COMMIT_MESSAGE" value="07_creating login form with form validation checks" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -593,124 +568,140 @@
     <MESSAGE value="06_b complete working integration with bootstrap and full styling of admin panel with fully abstracted header &amp; footer templates." />
     <MESSAGE value="06_b complete working integration with bootstrap and full styling of admin panel with partially abstracted header &amp; footer templates." />
     <MESSAGE value="06_c modal template page added" />
+    <MESSAGE value="07_creating login form with form validation checks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/Tutsplus - Build a CMS in CodeIgniter (2013)/Project Files/06_styling_the_admin_panel/application/views/admin/_layout_modal.php">
+    <entry file="file://$PROJECT_DIR$/application/migrations/002_create_pages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="59" selection-end="331" vertical-scroll-proportion="0.082125604">
+        <state line="36" column="14" selection-start="881" selection-end="881" vertical-scroll-proportion="1.2061069">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/_layout_main.php">
+    <entry file="file://$PROJECT_DIR$/application/migrations/003_create_sessions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1614" selection-end="1671" vertical-scroll-proportion="0.7032419">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="1" selection-start="433" selection-end="433" vertical-scroll-proportion="0.5748792">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Tutsplus - Build a CMS in CodeIgniter (2013)/Project Files/07_creating_the_login_form/application/controllers/admin/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="121" selection-end="444" vertical-scroll-proportion="-9.807693">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Tutsplus - Build a CMS in CodeIgniter (2013)/Project Files/07_creating_the_login_form/application/views/admin/_layout_modal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="69" selection-start="136" selection-end="205" vertical-scroll-proportion="-3.9230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/_layout_modal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="73" selection-start="343" selection-end="343" vertical-scroll-proportion="-11.038462">
+        <state line="36" column="1" selection-start="886" selection-end="886" vertical-scroll-proportion="-11.192307">
           <folding>
-            <element signature="e#6#129#0" expanded="true" />
+            <element signature="e#6#135#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Tutsplus - Build a CMS in CodeIgniter (2013)/Project Files/07_creating_the_login_form/application/views/admin/user/login.php">
+    <entry file="file://$USER_HOME$/Desktop/Tutsplus - Build a CMS in CodeIgniter (2013)/Project Files/08_securing_the_admin_panel/application/migrations/003_create_sessions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="9" selection-start="0" selection-end="517" vertical-scroll-proportion="-8.230769">
+        <state line="24" column="1" selection-start="7" selection-end="683" vertical-scroll-proportion="0.913486">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/migration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="48" selection-start="1969" selection-end="1969" vertical-scroll-proportion="-9.923077">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Tutsplus - Build a CMS in CodeIgniter (2013)/Project Files/07_creating_the_login_form/application/models/user_m.php">
+    <entry file="file://$USER_HOME$/Desktop/Tutsplus - Build a CMS in CodeIgniter (2013)/Project Files/08_securing_the_admin_panel/application/models/user_m.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="41" selection-end="428" vertical-scroll-proportion="0.697201">
+        <state line="56" column="5" selection-start="431" selection-end="1086" vertical-scroll-proportion="0.7125604">
+          <folding>
+            <element signature="n#login#0;n#User_M#0;n#!!top" expanded="false" />
+            <element signature="n#logout#0;n#User_M#0;n#!!top" expanded="false" />
+            <element signature="n#loggedin#0;n#User_M#0;n#!!top" expanded="false" />
+            <element signature="n#hash#0;n#User_M#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Tutsplus - Build a CMS in CodeIgniter (2013)/Project Files/08_securing_the_admin_panel/application/controllers/admin/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="13" selection-start="436" selection-end="676" vertical-scroll-proportion="0.6868421">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/user_m.php">
+    <entry file="dbDummy://dbtable:/e07bfa24/ffcb58b5-6969-40ad-808b-51a18136f649/ci_cms..users">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/_layout_modal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="7" selection-start="718" selection-end="788" vertical-scroll-proportion="-16.346153">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.31360948">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Tutsplus - Build a CMS in CodeIgniter (2013)/Project Files/07_creating_the_login_form/application/core/MY_Model.php">
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.10526316">
+        <state line="257" column="16" selection-start="8892" selection-end="8892" vertical-scroll-proportion="-22.115385">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Tutsplus - Build a CMS in CodeIgniter (2013)/Project Files/07_creating_the_login_form/application/libraries/Admin_Controller.php">
+    <entry file="file://$PROJECT_DIR$/application/config/migration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="8" selection-start="231" selection-end="260" vertical-scroll-proportion="-6.5384617">
+        <state line="23" column="32" selection-start="805" selection-end="805" vertical-scroll-proportion="-8.538462">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Tutsplus - Build a CMS in CodeIgniter (2013)/Project Files/09_managing_users/application/controllers/admin/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="108" selection-end="108" vertical-scroll-proportion="0.35">
+          <folding>
+            <element signature="n#index#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#edit#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#delete#0;n#User#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/Admin_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="37" selection-start="419" selection-end="419" vertical-scroll-proportion="-6.5384617">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="4" selection-start="623" selection-end="623" vertical-scroll-proportion="-12.423077">
+        <state line="21" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.4707379">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/user/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="6" selection-start="339" selection-end="339" vertical-scroll-proportion="-12.423077">
+        <state line="12" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.08947369">
           <folding>
             <element signature="e#6#121#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="7" selection-start="443" selection-end="508" vertical-scroll-proportion="0.67105263">
+        <state line="20" column="32" selection-start="393" selection-end="393" vertical-scroll-proportion="0.50526315">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/user_m.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="11" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.37157106">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Tutsplus - Build a CMS in CodeIgniter (2013)/Project Files/08_securing_the_admin_panel/application/libraries/Admin_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="9" selection-start="318" selection-end="540" vertical-scroll-proportion="0.615942">
+          <folding>
+            <element signature="e#336#393#0" expanded="false" />
+            <element signature="e#397#540#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
