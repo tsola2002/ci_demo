@@ -12,11 +12,12 @@
     <table class="table">
         <tr>
             <td>Name</td>
-            <td><?php echo form_input('name'); ?></td>
+            <td><?php echo form_input('name', set_value('name', $user->name)); ?></td>
         </tr>
         <tr>
             <td>Email</td>
-            <td><?php echo form_input('email'); ?></td>
+            <!--using ci based tag to echo form input & set default db values-->
+            <td><?php echo form_input('email', set_value('email', $user->email)); ?></td>
         </tr>
         <tr>
             <td>Password</td>

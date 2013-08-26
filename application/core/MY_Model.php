@@ -15,7 +15,7 @@ class MY_Model extends CI_Model {
     protected $_primary_key = 'id';
     protected $_primary_filter = 'intval';
     protected $_order_by = '';
-    //$_rules need to be public inorder to be loaded in a controller
+    //$_rules need to be public in order to be loaded in a controller
     public $_rules = array();
     protected $_timestamps = FALSE;
 
@@ -105,6 +105,17 @@ class MY_Model extends CI_Model {
         $this->db->where($this->_primary_key, $id);
         $this->db->limit(1);
         $this->db->delete($this->_table_name);
+    }
+
+    //takes array of fields to post value for
+    public function array_from_post($fields){
+        //set new array
+        //then loop thru the fields
+        $data = array();
+        foreach ($fields as $field) {
+            $data[$field] = $this->input->post($field);
+        }
+        return $data;
     }
 
 

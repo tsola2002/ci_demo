@@ -29,7 +29,7 @@ class User_m extends MY_Model {
     );
 
     //another separate set of rules for admin users
-    //email fiels has callback function attached to it
+    //email fields has callback function attached to it
     //also password confirm needs to match password field
     //order field needs to be a natural number
     public $rules_admin = array(
@@ -37,11 +37,6 @@ class User_m extends MY_Model {
             'field' => 'name',
             'label' => 'Name',
             'rules' => 'trim|required|xss_clean'
-        ),
-        'order' => array(
-            'field' => 'order',
-            'label' => 'Order',
-            'rules' => 'trim|is_natural'
         ),
         'email' => array(
             'field' => 'email',
@@ -105,6 +100,15 @@ class User_m extends MY_Model {
         //return session variable logged in from data array
         //it is casted as a boolean so its either TRUE/FALSE
         return (bool) $this->session->userdata('loggedin');
+    }
+
+    public function get_new(){
+        //create new empty class
+        $user = new stdClass();
+        $user->name = '';
+        $user->email = '';
+        $user->password = '';
+        return $user;
     }
 
     public function hash ($string)

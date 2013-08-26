@@ -12,6 +12,9 @@
 class Dashboard extends Admin_Controller {
 
     public function index(){
+
+        $this->data['subview'] = 'admin/dashboard/index';
+
         //load view along with data array from admin controller
         $this->load->view('admin/_layout_main', $this->data);
     }
