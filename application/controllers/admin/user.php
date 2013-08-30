@@ -34,7 +34,7 @@ class User extends Admin_Controller {
         if ($id) {
             $this->data['user'] = $this->user_m->get($id);
          //either we find the user or add error message to error array
-            count($this->data['user']) || $this->data['errors'][] = 'User could not be found';
+          //  count($this->data['user']) || $this->data['errors'][] = 'User could not be found';
         }
         else{
            //if not we'll fetch a new user
