@@ -2,300 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23c6da6-469d-458e-8c7a-be76837ce74c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/alert.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/button.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/o2k7/img/button_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/simple/skins/o2k7/img/button_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_silver.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/buttons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/default/img/buttons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/img/colorpicker.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/confirm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/corners.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/example/img/example.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/img/flash.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/horizontal.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/img/icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/simple/img/icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/img/iframe.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/default/img/items.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/default/img/menu_arrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/default/img/menu_check.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/media/moxieplayer.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/img/pagebreak.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/default/img/progress.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/img/quicktime.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/img/realmedia.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advimage/img/sample.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/img/shockwave.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/img/smiley-cool.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/img/smiley-cry.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/img/smiley-embarassed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/img/smiley-foot-in-mouth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/img/smiley-frown.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/img/smiley-innocent.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/img/smiley-kiss.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/img/smiley-laughing.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/img/smiley-money-mouth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/img/smiley-sealed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/img/smiley-smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/img/smiley-surprised.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/img/smiley-tongue-out.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/img/smiley-undecided.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/img/smiley-wink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/img/smiley-yell.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/default/img/tabs.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/img/trans.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ui-lightness/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ui-lightness/images/ui-icons_228ef1_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ui-lightness/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/vertical.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/img/video.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/img/windowsmedia.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/spellchecker/img/wline.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/migrations/004_parent_id_to_pages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/MY_Session.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/xhtmlxtras/abbr.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/xhtmlxtras/js/abbr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/about.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/js/about.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/xhtmlxtras/acronym.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/xhtmlxtras/js/acronym.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/admin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advhr/css/advhr.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advimage/css/advimage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advlink/css/advlink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advlink/js/advlink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/anchor.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/js/anchor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/xhtmlxtras/css/attributes.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/xhtmlxtras/attributes.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/xhtmlxtras/js/attributes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/template/blank.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/table/css/cell.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/table/cell.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/table/js/cell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/charmap.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/js/charmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/xhtmlxtras/cite.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/xhtmlxtras/js/cite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/color_picker.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/js/color_picker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/spellchecker/css/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/default/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/highcontrast/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/o2k7/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/simple/skins/default/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/simple/skins/o2k7/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/xhtmlxtras/del.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/xhtmlxtras/js/del.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/default/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/highcontrast/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/o2k7/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/example/dialog.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/example/js/dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/page/edit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/utils/editable_selects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advhr/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advimage/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advlink/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advlist/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/autolink/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/autoresize/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/autosave/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/bbcode/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/contextmenu/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/directionality/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/example/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/example_dependency/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/fullpage/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/fullscreen/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/iespell/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/inlinepopups/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/insertdatetime/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/layer/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/legacyoutput/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/lists/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/media/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/nonbreaking/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/noneditable/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/pagebreak/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/paste/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/preview/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/print/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/save/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/searchreplace/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/spellchecker/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/style/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/tabfocus/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/table/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/template/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/visualblocks/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/visualchars/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/wordcount/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/xhtmlxtras/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advhr/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advimage/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advlink/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advlist/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/autolink/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/autoresize/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/autosave/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/bbcode/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/contextmenu/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/directionality/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/example/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/example_dependency/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/fullpage/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/fullscreen/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/iespell/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/inlinepopups/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/insertdatetime/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/layer/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/legacyoutput/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/lists/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/media/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/nonbreaking/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/noneditable/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/pagebreak/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/paste/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/preview/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/print/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/save/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/searchreplace/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/spellchecker/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/style/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/tabfocus/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/table/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/template/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/visualblocks/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/visualchars/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/wordcount/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/xhtmlxtras/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/editor_template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/simple/editor_template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/editor_template_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/simple/editor_template_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/xhtmlxtras/js/element_common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/media/js/embed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/preview/jscripts/embed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/emotions.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/js/emotions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/langs/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/example/langs/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/langs/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/simple/langs/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advhr/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advimage/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advlink/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/emotions/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/example/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/fullpage/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/media/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/paste/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/searchreplace/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/style/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/table/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/template/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/xhtmlxtras/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/preview/example.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/utils/form_utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/fullpage/css/fullpage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/fullpage/fullpage.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/fullpage/js/fullpage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/fullscreen/fullscreen.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advimage/image.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/image.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advimage/js/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/js/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/page/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/xhtmlxtras/ins.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/xhtmlxtras/js/ins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ui-lightness/jquery-ui-1.9.1.custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ui-lightness/jquery-ui-1.9.1.custom.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.9.1.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.mjs.nestedSortable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advlink/link.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/link.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/js/link.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/page/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/utils/mctabs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/media/css/media.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/media/media.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/media/js/media.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/table/merge_cells.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/table/js/merge_cells.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/page/order.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/page/order_ajax.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/admin/page.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/paste/pastetext.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/paste/js/pastetext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/paste/pasteword.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/paste/js/pasteword.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/xhtmlxtras/css/popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/preview/preview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/style/css/props.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/style/props.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/style/js/props.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/style/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/table/css/row.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/table/row.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/table/js/row.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advhr/rule.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/advhr/js/rule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/searchreplace/css/searchreplace.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/searchreplace/searchreplace.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/searchreplace/js/searchreplace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/shortcuts.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/source_editor.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/js/source_editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/table/css/table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/table/table.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/table/js/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/template/css/template.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/inlinepopups/template.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/template/template.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/template/js/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/tiny_mce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/tiny_mce_popup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/tiny_mce_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/default/ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/highcontrast/ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/o2k7/ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/simple/skins/default/ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/simple/skins/o2k7/ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/o2k7/ui_black.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/utils/validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/visualblocks/css/visualblocks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/window.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/cms_helper.php" afterPath="$PROJECT_DIR$/application/helpers/cms_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/migrations/005_create_articles.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/admin/article.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/article_m.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/article/edit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/article/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/_layout_main.php" afterPath="$PROJECT_DIR$/application/views/admin/_layout_main.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/migration.php" afterPath="$PROJECT_DIR$/application/config/migration.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/components/page_head.php" afterPath="$PROJECT_DIR$/application/views/admin/components/page_head.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/page_m.php" afterPath="$PROJECT_DIR$/application/models/page_m.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin/user.php" afterPath="$PROJECT_DIR$/application/controllers/admin/user.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ci_demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377757205419" ignored="false" />
+    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1378228493229" ignored="false" />
     <file path="/Sholly.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002030716" ignored="false" />
     <file path="/dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002460921" ignored="false" />
     <file path="/mycal.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371226985918" ignored="false" />
@@ -321,7 +42,7 @@
     <file path="/hosts" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377543897578" ignored="false" />
     <file path="/page.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377869872942" ignored="false" />
     <file path="/page_m.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377858796278" ignored="false" />
-    <file path="/page_head.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377875581315" ignored="false" />
+    <file path="/page_head.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1378231113668" ignored="false" />
     <file path="/parent_id_to_pages.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377868736797" ignored="false" />
     <file path="/004_parent_id_to_pages.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377869263819" ignored="false" />
     <file path="/order.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377874549320" ignored="false" />
@@ -349,51 +70,7 @@
     <favorites_list name="ci_demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/admin/page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="60" selection-start="713" selection-end="713" vertical-scroll-proportion="0.5769231">
-              <folding>
-                <element signature="e#6#120#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order_ajax.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/page/order_ajax.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="22" selection-start="292" selection-end="292" vertical-scroll-proportion="15.038462">
-              <folding>
-                <element signature="e#6#126#0" expanded="true" />
-                <marker date="1377873301120" expanded="true" signature="1010:1232" placeholder="..." />
-                <marker date="1377873301120" expanded="true" signature="1044:1221" placeholder="{...}" />
-                <marker date="1377873301120" expanded="true" signature="1085:1212" placeholder="{&quot;handle&quot;: 'div'...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page_head.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/components/page_head.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="41" selection-start="1018" selection-end="1018" vertical-scroll-proportion="-11.846154">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/page/order.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="16" selection-start="915" selection-end="915" vertical-scroll-proportion="0.71708685">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -422,14 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$USER_HOME$/Desktop/Tutsplus - Build a CMS in CodeIgniter (2013)/Project Files/11_12_13_managing_pages/application/views/admin/page/index.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/page/login.php" />
-        <option value="$PROJECT_DIR$/../../apache/conf/extra/httpd-vhosts.conf" />
-        <option value="dbtable:/e07bfa24/ffcb58b5-6969-40ad-808b-51a18136f649/ci_cms..users" />
-        <option value="$PROJECT_DIR$/application/views/admin/page/index.php" />
-        <option value="$PROJECT_DIR$/application/migrations/parent_id_to_pages.php" />
-        <option value="$PROJECT_DIR$/application/config/migration.php" />
-        <option value="dbtable:/e07bfa24/ffcb58b5-6969-40ad-808b-51a18136f649/ci_cms..pages" />
         <option value="$PROJECT_DIR$/application/migrations/004_parent_id_to_pages.php" />
         <option value="$PROJECT_DIR$/application/views/admin/page/edit.php" />
         <option value="$PROJECT_DIR$/application/libraries/MY_Session.php" />
@@ -437,16 +106,24 @@
         <option value="$PROJECT_DIR$/application/models/page_m.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/page.php" />
         <option value="$PROJECT_DIR$/application/views/admin/page/order.php" />
+        <option value="$PROJECT_DIR$/application/migrations/005_create_articles.php" />
+        <option value="$PROJECT_DIR$/application/config/migration.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/_layout_main.php" />
+        <option value="$PROJECT_DIR$/application/models/article_m.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/article.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/article/index.php" />
         <option value="$PROJECT_DIR$/application/views/admin/components/page_head.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/article/edit.php" />
+        <option value="dbtable:/e07bfa24/ffcb58b5-6969-40ad-808b-51a18136f649/ci_cms..articles" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-53" />
-    <option name="y" value="16" />
-    <option name="width" value="949" />
-    <option name="height" value="757" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="786" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -474,6 +151,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -516,20 +194,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -571,32 +235,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -626,49 +264,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -678,10 +275,10 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -710,6 +307,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\ci_demo\js" />
+      <recent name="C:\xampp\htdocs\ci_demo\css" />
       <recent name="C:\xampp\htdocs\ci_demo" />
       <recent name="C:\xampp\htdocs\ci_demo\application\views\admin" />
       <recent name="C:\xampp\htdocs\ci_demo\application\config\development" />
@@ -794,18 +392,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-53" y="16" width="949" height="757" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29900333" sideWeight="0.6843292" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29952458" sideWeight="0.623987" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19162436" sideWeight="0.7009967" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3119935" sideWeight="0.70047545" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2490931" sideWeight="0.7147385" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27733934" sideWeight="0.7009967" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18071313" sideWeight="0.70047545" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29900333" sideWeight="0.3145434" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29952458" sideWeight="0.37601295" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -893,132 +491,119 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/Tutsplus - Build a CMS in CodeIgniter (2013)/Project Files/11_12_13_managing_pages/application/libraries/MY_Session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="46" selection-end="281" vertical-scroll-proportion="0.19484241">
-          <folding>
-            <element signature="n#sess_update#0;n#MY_Session#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Tutsplus - Build a CMS in CodeIgniter (2013)/Project Files/11_12_13_managing_pages/application/views/admin/page/order_ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="9" selection-start="738" selection-end="738" vertical-scroll-proportion="-11.615385">
-          <folding>
-            <marker date="1351896934000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1351896934000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1351896934000" expanded="true" signature="-1:-1" placeholder="{&quot;handle&quot;: 'div'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.mjs.nestedSortable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/page_m.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="64" selection-start="2328" selection-end="2328" vertical-scroll-proportion="-48.384617">
-          <folding>
-            <element signature="e#6#122#0" expanded="false" />
-            <element signature="n#save_order#0;n#page_m#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/libraries/MY_Session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="4" selection-start="480" selection-end="480" vertical-scroll-proportion="0.5714286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/page/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="9" selection-start="605" selection-end="605" vertical-scroll-proportion="0.7955182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/page/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/_layout_main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.3065476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/admin/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="60" selection-start="713" selection-end="713" vertical-scroll-proportion="0.5769231">
-          <folding>
-            <element signature="e#6#120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/page/order_ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="22" selection-start="292" selection-end="292" vertical-scroll-proportion="15.038462">
-          <folding>
-            <element signature="e#6#126#0" expanded="true" />
-            <marker date="1377873301120" expanded="true" signature="1010:1232" placeholder="..." />
-            <marker date="1377873301120" expanded="true" signature="1044:1221" placeholder="{...}" />
-            <marker date="1377873301120" expanded="true" signature="1085:1212" placeholder="{&quot;handle&quot;: 'div'...}" />
-          </folding>
+        <state line="33" column="60" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/components/page_tail.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Tutsplus - Build a CMS in CodeIgniter (2013)/Project Files/11_12_13_managing_pages/application/views/admin/components/page_head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="19" selection-start="412" selection-end="650" vertical-scroll-proportion="-7.1923075" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/page/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="16" selection-start="915" selection-end="915" vertical-scroll-proportion="1.3392857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/page/order_ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="22" selection-start="292" selection-end="292" vertical-scroll-proportion="0.04336735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4802111">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.9841689">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/migration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="2" selection-start="811" selection-end="811" vertical-scroll-proportion="0.61538464">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/migrations/005_create_articles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="1" selection-start="1227" selection-end="1227" vertical-scroll-proportion="-11.076923">
+          <folding>
+            <element signature="e#6#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/e07bfa24/ffcb58b5-6969-40ad-808b-51a18136f649/ci_cms..articles">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Tutsplus - Build a CMS in CodeIgniter (2013)/Project Files/11_12_13_managing_pages/application/views/admin/components/page_head.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/article/edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="412" selection-end="650" vertical-scroll-proportion="-7.1923075">
+        <state line="39" column="64" selection-start="1123" selection-end="1123" vertical-scroll-proportion="1.0870787">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="37" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.37078652">
           <folding>
-            <element signature="e#418#647#0" expanded="false" />
+            <element signature="e#6#123#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/article_m.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="29" selection-start="372" selection-end="372" vertical-scroll-proportion="0.46410257">
+          <folding>
+            <element signature="e#6#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/_layout_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="88" selection-start="894" selection-end="894" vertical-scroll-proportion="0.2917772">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/components/page_head.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="41" selection-start="1018" selection-end="1018" vertical-scroll-proportion="-11.846154">
+        <state line="17" column="55" selection-start="479" selection-end="479" vertical-scroll-proportion="0.10344828">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/page/order.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/article/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="16" selection-start="915" selection-end="915" vertical-scroll-proportion="0.71708685">
+        <state line="11" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.04509284">
           <folding />
         </state>
       </provider>

@@ -17,10 +17,13 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>css/bootstrap.css"/>
     <link rel="stylesheet" href="<?php echo base_url(); ?>css/bootstrap-responsive.css"/>
     <link rel="stylesheet" href="<?php echo base_url(); ?>css/admin.css"/>
+    <link rel="stylesheet" href="<?php echo base_url(); ?>css/datepicker.css"/>
 
     <!--loading base/custom javascripts-->
-    <script src="<?php echo base_url(); ?>js/bootstrap.js"></script>
     <script src="<?php echo base_url(); ?>js/jquery-2.0.2.min.js"></script>
+    <script src="<?php echo base_url(); ?>js/bootstrap.js"></script>
+    <script src="<?php echo base_url(); ?>js/bootstrap-datepicker.js"></script>
+
 
     <!--loading jqueryUI based on conditional-->
     <?php if(isset($sortable) && $sortable === TRUE): ?>
