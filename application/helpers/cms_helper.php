@@ -52,3 +52,42 @@ if (!function_exists('dump_exit')) {
         exit;
     }
 }
+
+//filter input, escape output
+function e($string){
+    return htmlentities($string);
+}
+
+//same as order_ajax.php's get_menu()
+function get_menu ($array, $child = FALSE)
+{
+    //accessing codeigniters super object
+    $CI =& get_instance();
+    $str = '';
+
+    //ul should hava a class of nav
+    if (count($array)) {
+        $str .= $child == FALSE ? '<ul class="nav">' . PHP_EOL : '<ul class="dropdown-menu">' . PHP_EOL;
+
+        foreach ($array as $item) {
+            //conditional to check whether first segment equals to item slug
+            $active = $CI->uri->segment(1) == $item['slug'] ? TRUE : FALSE;
+            if (isset($item['children']) && count($item['children'])) {
+                //add class of active to opening tag if active is true
+                $str .= $active ? '<li class="dropdown active">' : '<li class="dropdown">';
+                $str .= '<a  class="dropdown-toggle" data-toggle="dropdown" href="' . site_url(e($item['slug'])) . '">' . e($item['title']);
+                $str .= '<b class="caret"></b></a>' . PHP_EOL;
+                $str .= get_menu($item['children'], TRUE);
+            }
+            else {
+                $str .= $active ? '<li class="active">' : '<li>';
+                $str .= '<a href="' . site_url($item['slug']) . '">' . e($item['title']) . '</a>';
+            }
+            $str .= '</li>' . PHP_EOL;
+        }
+
+        $str .= '</ul>' . PHP_EOL;
+    }
+
+    return $str;
+}
