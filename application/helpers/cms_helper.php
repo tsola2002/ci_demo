@@ -91,3 +91,50 @@ function get_menu ($array, $child = FALSE)
 
     return $str;
 }
+
+//function just sets & returns url
+function article_link($article){
+    return 'article/' . intval($article->id) . '/' . e($article->slug);
+}
+
+//displays list of article titles to display in the sidebar
+//takes in array of articles contains them in unordered list
+function article_links($articles){
+    $string = '<ul>';
+    foreach ($articles as $article) {
+        $url = article_link($article);
+        $string .= '<li>';
+        $string .= '<h3>' . anchor($url, e($article->title)) .  ' ›</h3>';
+        $string .= '<p class="pubdate">' . e($article->pubdate) . '</p>';
+        $string .= '</li>';
+    }
+    $string .= '</ul>';
+    return $string;
+}
+
+//takes in artcle & numwords to be displayed in blog
+function get_excerpt($article, $numwords = 50){
+    //setup a variable to hold full url to the article
+    $string = '';
+    $url = article_link($article);
+    //setup a dynamic heading with anchor tag
+    $string .= '<h2>' . anchor($url, e($article->title)) .  '</h2>';
+    $string .= '<p class="pubdate">' . e($article->pubdate) . '</p>';
+    //setup article body, strip away html tags, run through escape function
+    $string .= '<p>' . e(limit_to_numwords(strip_tags($article->body), $numwords)) . '</p>';
+    //dynamic paragraph with anchor containing article title
+    $string .= '<p>' . anchor($url, 'Read more ›', array('title' => e($article->title))) . '</p>';
+    return $string;
+}
+
+//function to help cut text off at certain number of words
+function limit_to_numwords($string, $numwords){
+    //excerpt variable to be ran through explode function
+    $excerpt = explode(' ', $string, $numwords + 1);
+    if (count($excerpt) >= $numwords) {
+        array_pop($excerpt);
+    }
+    //popped array should give us maximum number of words
+    $excerpt = implode(' ', $excerpt);
+    return $excerpt;
+}

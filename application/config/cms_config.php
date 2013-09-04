@@ -10,4 +10,4 @@
  */
 
 
-$config['site_name']='my awesome website';
+$config['site_name'] = 'The Newsroom Daily';
