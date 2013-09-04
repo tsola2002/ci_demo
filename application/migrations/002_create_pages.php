@@ -31,6 +31,7 @@ class Migration_Create_pages extends CI_Migration {
             'order' => array(
                 'type' => 'INT',
                 'constraint' => '11',
+                'default' => 0,
             ),
             'body' => array(
                 'type' => 'TEXT',

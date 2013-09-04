@@ -20,18 +20,27 @@
         <!--if theres a parent id value it will be our value if not we stick with default value-->
         <td><?php echo form_dropdown('parent_id', $pages_no_parents, $this->input->post('parent_id') ? $this->input->post('parent_id') : $page->parent_id); ?></td>
     </tr>
+
+    <tr>
+        <td>Template</td>
+        <td><?php echo form_dropdown('template', array('page' => 'Page', 'news_archive' => 'News archive', 'homepage' => 'Homepage'), $this->input->post('template') ? $this->input->post('template') : $page->template); ?></td>
+    </tr>
+
     <tr>
         <td>Title</td>
         <td><?php echo form_input('title', set_value('title', $page->title)); ?></td>
     </tr>
+
     <tr>
         <td>Slug</td>
         <td><?php echo form_input('slug', set_value('slug', $page->slug)); ?></td>
     </tr>
+
     <tr>
         <td>Body</td>
         <td><?php echo form_textarea('body', set_value('body', $page->body), 'class="tinymce"'); ?></td>
     </tr>
+
     <tr>
         <td></td>
         <td><?php echo form_submit('submit', 'Save', 'class="btn btn-primary"'); ?></td>

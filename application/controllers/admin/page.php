@@ -56,7 +56,7 @@ class Page extends Admin_Controller
         // Fetch a page or set a new one
         if ($id) {
             $this->data['page'] = $this->page_m->get($id);
-         //   count($this->data['page']) || $this->data['errors'][] = 'page could not be found';
+           // count($this->data['page']) || $this->data['errors'][] = 'page could not be found';
         }
         else {
             $this->data['page'] = $this->page_m->get_new();
@@ -75,12 +75,15 @@ class Page extends Admin_Controller
         $this->form_validation->set_rules($rules);
 
         // Process the form
+        //template field added
         if ($this->form_validation->run() == TRUE) {
             $data = $this->page_m->array_from_post(array(
                 'title',
                 'slug',
                 'body',
+                'template',
                 'parent_id'
+
             ));
             $this->page_m->save($data, $id);
             redirect('admin/page');

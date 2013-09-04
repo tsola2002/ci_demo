@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23c6da6-469d-458e-8c7a-be76837ce74c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/Frontend_Controller.php" afterPath="$PROJECT_DIR$/application/libraries/Frontend_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/_main_layout.php" afterPath="$PROJECT_DIR$/application/views/_main_layout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/cms_helper.php" afterPath="$PROJECT_DIR$/application/helpers/cms_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/migrations/006_add_template_to_pages.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/migrations/002_create_pages.php" afterPath="$PROJECT_DIR$/application/migrations/002_create_pages.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/page/edit.php" afterPath="$PROJECT_DIR$/application/views/admin/page/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/migration.php" afterPath="$PROJECT_DIR$/application/config/migration.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/page.php" afterPath="$PROJECT_DIR$/application/controllers/page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin/page.php" afterPath="$PROJECT_DIR$/application/controllers/admin/page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/components/page_head.php" afterPath="$PROJECT_DIR$/application/views/admin/components/page_head.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/page_m.php" afterPath="$PROJECT_DIR$/application/models/page_m.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ci_demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1378239649245" ignored="false" />
+    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1378241342386" ignored="false" />
     <file path="/Sholly.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002030716" ignored="false" />
     <file path="/dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002460921" ignored="false" />
     <file path="/mycal.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371226985918" ignored="false" />
@@ -31,7 +37,7 @@
     <file path="/user_m.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377435684694" ignored="false" />
     <file path="/003_create_sessions.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377435113082" ignored="false" />
     <file path="/cms_helper.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377443477758" ignored="false" />
-    <file path="/edit.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377869522241" ignored="false" />
+    <file path="/edit.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1378246590389" ignored="false" />
     <file path="/httpd-vhosts.conf" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377856616167" ignored="false" />
     <file path="/hosts" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377543897578" ignored="false" />
     <file path="/page.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1378240007714" ignored="false" />
@@ -42,6 +48,7 @@
     <file path="/order.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377874549320" ignored="false" />
     <file path="/MY_Session.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1377871736093" ignored="false" />
     <file path="/style.css" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1378239074675" ignored="false" />
+    <file path="/migration.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1378256898813" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,10 +73,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Frontend_Controller.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/libraries/Frontend_Controller.php">
+      <file leaf-file-name="page_m.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/page_m.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="58" selection-start="396" selection-end="396" vertical-scroll-proportion="-7.8461537">
+            <state line="50" column="33" selection-start="1310" selection-end="1310" vertical-scroll-proportion="-7.730769">
+              <folding>
+                <element signature="e#251#1096#0" expanded="false" />
+                <element signature="n#delete#0;n#page_m#0;n#!!top" expanded="false" />
+                <element signature="n#save_order#0;n#page_m#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/admin/page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="83" column="27" selection-start="2177" selection-end="2177" vertical-scroll-proportion="-4.730769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/page/edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="8" selection-start="650" selection-end="650" vertical-scroll-proportion="-11.576923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="58" selection-start="1570" selection-end="1570" vertical-scroll-proportion="-9.461538">
               <folding />
             </state>
           </provider>
@@ -78,31 +116,26 @@
       <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="53" selection-start="404" selection-end="404" vertical-scroll-proportion="-7.3846154">
+            <state line="24" column="83" selection-start="581" selection-end="581" vertical-scroll-proportion="-10.461538">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_main_layout.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/_main_layout.php">
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="46" selection-start="445" selection-end="445" vertical-scroll-proportion="-5.576923">
+            <state line="191" column="28" selection-start="6399" selection-end="6399" vertical-scroll-proportion="-8.423077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cms_helper.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/helpers/cms_helper.php">
+      <file leaf-file-name="log-2013-09-04.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/logs/log-2013-09-04.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="70" selection-start="2036" selection-end="2036" vertical-scroll-proportion="0.794702">
-              <folding>
-                <element signature="n#btn_edit#0;n#!!top" expanded="false" />
-                <element signature="n#btn_delete#0;n#!!top" expanded="false" />
-                <element signature="e#492#1121#0" expanded="false" />
-                <element signature="e#1124#1280#0" expanded="false" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,31 +169,31 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/admin/_layout_main.php" />
-        <option value="$PROJECT_DIR$/application/models/article_m.php" />
-        <option value="$PROJECT_DIR$/application/controllers/admin/article.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/article/index.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/components/page_head.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/article/edit.php" />
-        <option value="dbtable:/e07bfa24/ffcb58b5-6969-40ad-808b-51a18136f649/ci_cms..articles" />
-        <option value="$PROJECT_DIR$/application/config/routes.php" />
-        <option value="$PROJECT_DIR$/application/views/page_tail.php" />
-        <option value="$PROJECT_DIR$/application/views/page_head.php" />
-        <option value="$PROJECT_DIR$/application/views/components/page_head.php" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/application/libraries/Frontend_Controller.php" />
-        <option value="$PROJECT_DIR$/application/controllers/page.php" />
         <option value="$PROJECT_DIR$/application/views/_main_layout.php" />
         <option value="$PROJECT_DIR$/application/helpers/cms_helper.php" />
+        <option value="$PROJECT_DIR$/application/migrations/006_add_template_to_pages.php" />
+        <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
+        <option value="$USER_HOME$/Desktop/Tutsplus - Build a CMS in CodeIgniter (2013)/Project Files/17_adding_templates/application/models/page_m.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/components/page_head.php" />
+        <option value="$PROJECT_DIR$/application/migrations/002_create_pages.php" />
+        <option value="$PROJECT_DIR$/application/config/migration.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/migration.php" />
+        <option value="$PROJECT_DIR$/application/models/page_m.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/page.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/page/edit.php" />
+        <option value="$PROJECT_DIR$/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/application/controllers/page.php" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
-    <option name="y" value="7" />
-    <option name="width" value="670" />
-    <option name="height" value="757" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="786" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -217,6 +250,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -235,43 +282,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="logs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -407,23 +418,27 @@
       <created>1378239670985</created>
       <updated>1378239670985</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="16_styling the navigation and dynamically adding php generated database page items to bootstrap navigation">
+      <created>1378241369144</created>
+      <updated>1378241369144</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="7" width="670" height="757" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3275563" sideWeight="0.62335527" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23137876" sideWeight="0.623987" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3119935" sideWeight="0.70047545" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2490931" sideWeight="0.7147385" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26337114" sideWeight="0.32012677" order="2" side_tool="true" content_ui="tabs" x="88" y="270" width="307" height="442" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36677632" sideWeight="0.6724437" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26337114" sideWeight="0.44849446" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3275563" sideWeight="0.375" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23137876" sideWeight="0.37601295" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -478,7 +493,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="15_styling the front end of the website" />
+    <option name="LAST_COMMIT_MESSAGE" value="16_styling the navigation and dynamically adding php generated database page items to bootstrap navigation" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -505,136 +520,133 @@
     <MESSAGE value="10_managing users part2(this includes the final bit of adding, editing, &amp; deleting a user record)" />
     <MESSAGE value="14_created model view &amp; controller to manage crud application of articles to the website &amp; datepicker plugin added" />
     <MESSAGE value="15_styling the front end of the website" />
+    <MESSAGE value="16_styling the navigation and dynamically adding php generated database page items to bootstrap navigation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/e07bfa24/ffcb58b5-6969-40ad-808b-51a18136f649/ci_cms..articles">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/components/page_head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="67" selection-start="780" selection-end="780" vertical-scroll-proportion="0.51193637">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/article/edit.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/page/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="64" selection-start="1123" selection-end="1123" vertical-scroll-proportion="1.0870787">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/article.php">
+    <entry file="file://$PROJECT_DIR$/application/migrations/003_create_sessions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="37" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.37078652">
+        <state line="25" column="43" selection-start="579" selection-end="579" vertical-scroll-proportion="-3.8846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/migration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="28" selection-start="273" selection-end="273" vertical-scroll-proportion="0.3923077">
           <folding>
-            <element signature="e#6#123#0" expanded="false" />
+            <element signature="n#index#0;n#Migration#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/article_m.php">
+    <entry file="file://$PROJECT_DIR$/application/config/migration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="29" selection-start="372" selection-end="372" vertical-scroll-proportion="0.46410257">
+        <state line="19" column="39" selection-start="673" selection-end="699" vertical-scroll-proportion="0.63076925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/migrations/002_create_pages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="31" selection-start="820" selection-end="820" vertical-scroll-proportion="0.6846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/user_m.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="5" selection-start="2346" selection-end="2346" vertical-scroll-proportion="0.61025643">
           <folding>
-            <element signature="e#6#125#0" expanded="false" />
+            <element signature="n#index#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#edit#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#delete#0;n#User#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/article/index.php">
+    <entry file="file://$PROJECT_DIR$/application/migrations/004_parent_id_to_pages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.04509284">
+        <state line="21" column="23" selection-start="452" selection-end="466" vertical-scroll-proportion="0.56666666">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/page_m.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="33" selection-start="1310" selection-end="1310" vertical-scroll-proportion="-7.730769">
+          <folding>
+            <element signature="e#251#1096#0" expanded="false" />
+            <element signature="n#delete#0;n#page_m#0;n#!!top" expanded="false" />
+            <element signature="n#save_order#0;n#page_m#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/admin/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="4.8846154">
+        <state line="83" column="27" selection-start="2177" selection-end="2177" vertical-scroll-proportion="-4.730769">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/components/page_tail.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/page/edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="7" selection-start="145" selection-end="145" vertical-scroll-proportion="-8.5">
-          <folding>
-            <marker date="1378238239034" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/_layout_main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="88" selection-start="894" selection-end="894" vertical-scroll-proportion="-4.6923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/components/page_head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="156" selection-end="938" vertical-scroll-proportion="-10.461538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/components/page_head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="67" selection-start="676" selection-end="676" vertical-scroll-proportion="-3.8846154">
+        <state line="25" column="8" selection-start="650" selection-end="650" vertical-scroll-proportion="-11.576923">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.7708978">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/libraries/Frontend_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="58" selection-start="396" selection-end="396" vertical-scroll-proportion="-7.8461537">
+        <state line="44" column="58" selection-start="1570" selection-end="1570" vertical-scroll-proportion="-9.461538">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="53" selection-start="404" selection-end="404" vertical-scroll-proportion="-7.3846154">
+        <state line="24" column="83" selection-start="581" selection-end="581" vertical-scroll-proportion="-10.461538">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/_main_layout.php">
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="46" selection-start="445" selection-end="445" vertical-scroll-proportion="-5.576923">
+        <state line="191" column="28" selection-start="6399" selection-end="6399" vertical-scroll-proportion="-8.423077">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/helpers/cms_helper.php">
+    <entry file="file://$PROJECT_DIR$/application/logs/log-2013-09-04.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="70" selection-start="2036" selection-end="2036" vertical-scroll-proportion="0.794702">
-          <folding>
-            <element signature="n#btn_edit#0;n#!!top" expanded="false" />
-            <element signature="n#btn_delete#0;n#!!top" expanded="false" />
-            <element signature="e#492#1121#0" expanded="false" />
-            <element signature="e#1124#1280#0" expanded="false" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>

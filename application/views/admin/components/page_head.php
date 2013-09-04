@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>css/datepicker.css"/>
 
     <!--loading base/custom javascripts-->
-    <script src="<?php echo base_url(); ?>js/jquery-2.0.2.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="<?php echo base_url(); ?>js/bootstrap.js"></script>
     <script src="<?php echo base_url(); ?>js/bootstrap-datepicker.js"></script>
 

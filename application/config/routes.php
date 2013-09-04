@@ -41,6 +41,10 @@
 $route['default_controller'] = "page";
 $route['404_override'] = '';
 
+//routing to target any page other than homepage
+//redirects tp page controller with additional uri segment
+$route[':any'] = 'page/index/$1';
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
