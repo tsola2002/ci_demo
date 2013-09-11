@@ -49,4 +49,24 @@ class Article_m extends MY_Model
         return $article;
     }
 
+    //abstracts publication into its own method
+    public function set_published(){
+        $this->db->where('pubdate <=', date('Y-m-d'));
+    }
+
+    //method to get the latest list of articles
+    public function get_recent($limit = 3){
+
+        // Fetch a limited number of recent articles
+        //cast limit into an integer
+        $limit = (int) $limit;
+        //use our new set_published method
+        $this->set_published();
+        //limit number of articles to limit
+        $this->db->limit($limit);
+        //return the articles
+        return parent::get();
+    }
+
+
 }

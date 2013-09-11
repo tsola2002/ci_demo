@@ -41,23 +41,30 @@ class Page extends Frontend_Controller {
     }
 
     private function _page(){
-        dump('Welcome from the page template');
+        //sidebar needs to be present in the page template
+        $this->data['recent_news'] = $this->article_m->get_recent();
+
     }
 
     private function _homepage(){
         //home page will load model then limit the articles to six
-        $this->load->model('article_m');
+
         //fetches most recent pages(less than or equal today)
-        $this->db->where('pubdate <=', date('Y-m-d'));
+        //$this->db->where('pubdate <=', date('Y-m-d'));
+        //is being replaced with this
+        $this->article_m->set_published();
         $this->db->limit(6);
         $this->data['articles'] = $this->article_m->get();
     }
 
     private function _news_archive(){
         $this->load->model('article_m');
-
+        //sidebar needs to be present in news archive template
+        $this->data['recent_news'] = $this->article_m->get_recent();
         // Count all articles
-        $this->db->where('pubdate <=', date('Y-m-d'));
+        //$this->db->where('pubdate <=', date('Y-m-d'));
+        //is being replaced with this
+        $this->article_m->set_published();
         //count all records so that we can setup paging
         $count = $this->db->count_all_results('articles');
 

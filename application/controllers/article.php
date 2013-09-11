@@ -13,12 +13,15 @@ class Article extends Frontend_Controller {
 
     public function __construct(){
         parent::__construct();
-        $this->load->model('article_m');
+
+        $this->data['recent_news'] = $this->article_m->get_recent();
     }
 
     public function index($id, $slug){
         // Fetch the article
-        $this->db->where('pubdate <=', date('Y-m-d'));
+       // $this->db->where('pubdate <=', date('Y-m-d'));
+        //is being replaces with new method
+        $this->article_m->set_published();
         // fetch the article by its id
         $this->data['article'] = $this->article_m->get($id);
 
