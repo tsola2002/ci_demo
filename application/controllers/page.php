@@ -47,6 +47,7 @@ class Page extends Frontend_Controller {
     private function _homepage(){
         //home page will load model then limit the articles to six
         $this->load->model('article_m');
+        //fetches most recent pages(less than or equal today)
         $this->db->where('pubdate <=', date('Y-m-d'));
         $this->db->limit(6);
         $this->data['articles'] = $this->article_m->get();
@@ -57,24 +58,39 @@ class Page extends Frontend_Controller {
 
         // Count all articles
         $this->db->where('pubdate <=', date('Y-m-d'));
+        //count all records so that we can setup paging
         $count = $this->db->count_all_results('articles');
 
         // Set up pagination
+        //articles per page = 4
+        //conditional if if articles r greater than 4
         $perpage = 4;
         if ($count > $perpage) {
             $this->load->library('pagination');
             $config['base_url'] = site_url($this->uri->segment(1) . '/');
+            //total records = defined record count variable
             $config['total_rows'] = $count;
+            //bringing in perpage variable
             $config['per_page'] = $perpage;
+            //segment needs to be set if its not in default third segment
             $config['uri_segment'] = 2;
+            //startup pagination
+
+
+
             $this->pagination->initialize($config);
+            //store links in variable
             $this->data['pagination'] = $this->pagination->create_links();
             $offset = $this->uri->segment(2);
         }
         else {
+            //if not set pagination to nothin
             $this->data['pagination'] = '';
+            //and offset to zero
             $offset = 0;
         }
+
+
 
         // Fetch articles
         $this->db->where('pubdate <=', date('Y-m-d'));

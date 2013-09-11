@@ -52,6 +52,15 @@ class page_m extends MY_Model {
         return $page;
     }
 
+    //function adds anchor that links to news archive
+    public function get_archive_link(){
+        //fetch page where template is news archive & we want a single object returned
+        $page = parent::get_by(array('template' => 'news_archive'), TRUE);
+        //return page slug if exist or empty string if not
+        return isset($page->slug) ? $page->slug : '';
+    }
+
+
     public function delete ($id)
     {
         // Delete a page

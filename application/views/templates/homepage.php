@@ -24,6 +24,7 @@
 <!-- Sidebar -->
 <div class="span3 sidebar">
     <h2>Recent news</h2>
+    <!--passing in dynamic news archive link-->
     <?php echo anchor($news_archive_link, '+ News archive'); ?>
     <!--slicing articles array with offset of 3-->
     <?php $articles = array_slice($articles, 3); ?>

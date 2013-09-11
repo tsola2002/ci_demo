@@ -39,11 +39,16 @@
 */
 
 $route['default_controller'] = "page";
-$route['404_override'] = '';
+//codeigniter will load page controller instead of 404 error ev
+$route['404_override'] = 'page';
+
+//this rule needs to be setup for pages with id number in their url's
+$route['article/(:num)/(:any)'] = 'article/index/$1/$2';
+
 
 //routing to target any page other than homepage
-//redirects tp page controller with additional uri segment
-$route[':any'] = 'page/index/$1';
+//redirects to page controller with additional uri segment
+//$route[':any'] = 'page/index/$1';
 
 
 /* End of file routes.php */
