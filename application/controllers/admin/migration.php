@@ -17,6 +17,7 @@ class Migration extends Admin_Controller  {
 
     public function index(){
         $this->load->library('migration');
+        //looks for current migration in config & migration file
         if ( ! $this->migration->current())
         {
             show_error($this->migration->error_string());

@@ -13,6 +13,7 @@ class MY_Model extends CI_Model {
 
     protected $_table_name = '';
     protected $_primary_key = 'id';
+    //defaulf filter for filtering primary key
     protected $_primary_filter = 'intval';
     protected $_order_by = '';
     //$_rules need to be public in order to be loaded in a controller
@@ -34,16 +35,21 @@ class MY_Model extends CI_Model {
         if ($id != NULL) {
             $filter = $this->_primary_filter;
             $id = $filter($id);
+            //we do a where statement on id
             $this->db->where($this->_primary_key, $id);
+            //return a single row
             $method = 'row';
         }
-        //if not then we need all records
+        // if we passed a single parameter return a single row
+
         elseif($single == TRUE) {
             $method = 'row';
         }
+        //if not then we need all records as an array
         else {
             $method = 'result';
         }
+        //make sure array is empty
         //if records have been ordered then
         if (!count($this->db->ar_orderby)) {
             $this->db->order_by($this->_order_by);
@@ -54,7 +60,9 @@ class MY_Model extends CI_Model {
         //pass an array as parameter for get by and single variable
         //to help return a single value
     public function get_by($where, $single = FALSE){
+        //all we do is set the where method
         $this->db->where($where);
+        //then retrive values using our above get method
         return $this->get(NULL, $single);
     }
 
@@ -67,7 +75,9 @@ class MY_Model extends CI_Model {
         if ($this->_timestamps == TRUE) {
             //create mysql datetimestamp
             $now = date('Y-m-d H:i:s');
+            //either id is present or we set created date
             $id || $data['created'] = $now;
+            //setting modified key with update or insert
             $data['modified'] = $now;
         }
 
@@ -75,12 +85,16 @@ class MY_Model extends CI_Model {
         if ($id === NULL) {
             //if primary doesnt exist
             !isset($data[$this->_primary_key]) || $data[$this->_primary_key] = NULL;
+            //we set the data
             $this->db->set($data);
+            //then insert records into the table
             $this->db->insert($this->_table_name);
+            //fetch the id
             $id = $this->db->insert_id();
         }
         // Update
         else {
+            //we need to filter primary key first
             $filter = $this->_primary_filter;
             $id = $filter($id);
             $this->db->set($data);

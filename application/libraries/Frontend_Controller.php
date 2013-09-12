@@ -12,6 +12,7 @@
 class Frontend_Controller extends MY_Controller {
 
     function __construct(){
+        //this classes constructor will call the constructor will call the constructor of the parent
         parent::__construct();
 
         // Load stuff

@@ -10,7 +10,7 @@
  */
 
 class page_m extends MY_Model {
-
+    //copied attribute fields from my_model
     protected $_table_name = 'pages';
     protected $_order_by = 'parent_id, order';
     public $rules = array(

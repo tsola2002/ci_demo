@@ -1,8 +1,11 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
+//hacked autoloader which will only run if class name does not start with CI_
 function __autoload($classname) {
     if (strpos($classname, 'CI_') !== 0) {
+        //lookup the class name
         $file = APPPATH . 'libraries/' . $classname . '.php';
+        //if it is a file then include it
         if (file_exists($file) && is_file($file)) {
             @include_once($file);
         }
