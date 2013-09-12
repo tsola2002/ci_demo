@@ -13,10 +13,19 @@ class Dashboard extends Admin_Controller {
 
     public function index(){
 
-        $this->data['subview'] = 'admin/dashboard/index';
+        // Fetch recently modified articles
+        $this->load->model('article_m');
+        //order selection by modified date in a descding order
+        $this->db->order_by('modified desc');
+        //limit records to 5
+        $this->db->limit(5);
+        //create variable to get records
+        $this->data['recent_articles'] = $this->article_m->get();
 
+        $this->data['subview'] = 'admin/dashboard/index';
         //load view along with data array from admin controller
         $this->load->view('admin/_layout_main', $this->data);
+
     }
 
     public function modal(){

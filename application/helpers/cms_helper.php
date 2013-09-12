@@ -9,6 +9,14 @@
  *
  */
 
+function add_meta_title ($string)
+{
+    //get instance of codeigniter super object
+    $CI =& get_instance();
+    //set variable to (escaped string followed by ci->meta title)
+    $CI->data['meta_title'] = e($string) . ' - ' . $CI->data['meta_title'];
+}
+
 //takes in parameter
 function btn_edit ($uri)
 {

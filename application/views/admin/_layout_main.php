@@ -10,11 +10,12 @@
                     <span class="icon-bar"></span>
 
                 </a>
-                <a class="brand" href="#">Roux Academy</a>
+                <a class="brand" href="#">My Awesome CMS</a>
                 <div class="nav-collapse">
                     <ul class="nav">
                         <li class="active"><a href="<?php echo site_url('admin/dashboard'); ?>">Dashboard</a></li>
                         <li><?php echo anchor('admin/page', 'pages'); ?></li>
+                        <li><?php echo anchor('admin/page/order', 'order pages'); ?></li>
                         <li><?php echo anchor('admin/article', 'news articles'); ?></li>
                         <li><?php echo anchor('admin/user', 'users'); ?></li>
                     </ul>

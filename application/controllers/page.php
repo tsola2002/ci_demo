@@ -24,6 +24,9 @@ class Page extends Frontend_Controller {
         $this->data['page'] = $this->page_m->get_by(array('slug' => (string) $this->uri->segment(1)), TRUE);
         count($this->data['page']) || show_404(current_url());
 
+        add_meta_title($this->data['page']->title);
+
+
         // Fetch the page data
         //if the method exists we call it, if not we log an error
         $method = '_' . $this->data['page']->template;

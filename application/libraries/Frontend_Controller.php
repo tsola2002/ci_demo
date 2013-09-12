@@ -23,6 +23,10 @@ class Frontend_Controller extends MY_Controller {
 
         //set a variable to news archive
         $this->data['news_archive_link'] = $this->page_m->get_archive_link();
+
+        //sets meta title to configs website name
+        $this->data['meta_title'] = config_item('site_name');
+
     }
 
 }

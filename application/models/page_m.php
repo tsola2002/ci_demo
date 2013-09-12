@@ -12,7 +12,7 @@
 class page_m extends MY_Model {
 
     protected $_table_name = 'pages';
-    protected $_order_by = 'order';
+    protected $_order_by = 'parent_id, order';
     public $rules = array(
         'parent_id' => array(
             'field' => 'parent_id',
@@ -89,7 +89,9 @@ class page_m extends MY_Model {
     public function get_nested ()
     {
         //fetch pages as an array
+        $this->db->order_by($this->_order_by);
         $pages = $this->db->get('pages')->result_array();
+
 
         $array = array();
         foreach ($pages as $page) {
