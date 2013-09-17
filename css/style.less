@@ -63,11 +63,13 @@ table {
 /**********************************************/
 
 @link-color: #E74B34;
-@link-color-hover: #132C3B;
+@link-color-hover: #cededf;
 
-@text-color: #6c6c6c;
+@text-color: #2b2b2b;
 
-@border-color: #E0E0E0;
+@border-color: #50a1c0;
+
+@dark-blue: #173a4e;
 
 @blockquote-color: #2894d8;
 
@@ -77,8 +79,8 @@ table {
 @dark-bg-heading-one: white;
 @dark-bg-heading-two: #3694b7;
 
-@body-font: "Cabin", Helvetica, Arial, sans-serif;
-@serif-font: "Gentium Basic", Georgia, serif;
+@body-font: "Bitter", Helvetica, Arial, sans-serif;
+@serif-font: "Source Code Pro", Georgia, serif;
 @heading-font: @body-font;
 
 
@@ -144,8 +146,8 @@ a {
 }
 
 #wrap {
-  background: url("../img/bg.png") repeat-y #fff;
-  border: 1px solid #dddddd;
+  background: url("../img/bg.png") repeat-y #f7f7f7;
+  border: 1px solid @border-color;
   border-top: none;
   margin: 0 auto;
   overflow: hidden;
@@ -153,9 +155,15 @@ a {
 }
 
 #head {
-  background: url("../img/head.gif") repeat-x #454545;
+  background: url("../img/head.jpg") repeat-x @dark-blue;
   padding: 30px 0;
+
 }
+
+#content h2 {
+  color: @border-color;
+}
+
 
 #head h1 {
   margin: 0 0 0 20px;
@@ -164,7 +172,7 @@ a {
 #head h1 a {
   background: url("../img/logo.png") no-repeat;
   display: block;
-  height: 60px;
+  height: 67px;
   text-indent: -9999em;
   width: 380px;
 }
@@ -186,8 +194,8 @@ h2 span.jobcount {
 }
 
 h2 cite {
-  background-color: #454545;
-  color: #eee;
+  background-color: @light-bg-heading-two;
+  color: @text-color;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 0.5em;
   padding: 2px 6px;
@@ -226,7 +234,7 @@ ol#listings li.alt a {
 }
 
 ol#listings li a:hover, ol#listings li a:active, ol#listings li a:focus {
-  background-color: #efefef;
+  background-color: @link-color-hover;
   text-decoration: none;
 }
 
@@ -265,6 +273,10 @@ span.posted {
 
 span.posted cite {
   font-size: 0.8em;
+}
+
+span.title:hover, span.meta:hover{
+  color: @link-color;
 }
 
 .miscinfo {
@@ -372,5 +384,6 @@ p.success {
 
 #footer a:hover {
   text-decoration: none;
+  color: @link-color;
 }
 
