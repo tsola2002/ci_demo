@@ -15,6 +15,9 @@
     <meta charset="UTF-8">
     <title><?php echo $sitetitle; ?></title>
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/style.css">
+
+    <!-- Javascripts -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>js/less-1.3.3.min.js"></script>
 </head>
 <body>
 
