@@ -51,6 +51,14 @@ class Jobs extends CI_Controller {
         $this->load->view('details', $data);
     }
 
+    function add() {
+        $this->load->view('add');
+    }
+
+    function submit() {
+        $this->mjobs->submit_listing();
+    }
+
 
 
 }

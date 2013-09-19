@@ -72,4 +72,47 @@ class Mjobs extends CI_Model {
         return $data;
     }
 
+
+    /*
+     * $this->form_validation->run() will execute the validation rules.
+     *  If the validation does not pass, the function returns 'FALSE'.
+     *  In this case, the /views/add.php view file is re-loaded,
+     *  the appropriate validation errors will display and the form fields will automatically re-populate.
+     * If the validation passes (returns 'TRUE'), the POST data is assembled into an array with the user's IP address
+     *  and the UNIX timestamp of the current time both appended to the form data.
+     * The $data is then inserted into the database using the $this->db->insert() Active Record function.
+     * Following that, the user is redirected to the main listings page where their new listing should be sitting at the top of the list.
+     * */
+
+    function submit_listing() {
+        $this->form_validation->set_rules('title', 'Title', 'required|max_length[250]|htmlspecialchars');
+        $this->form_validation->set_rules('category', 'Category', 'required');
+        $this->form_validation->set_rules('body', 'Job Description', 'required|htmlspecialchars');
+        $this->form_validation->set_rules('type', 'Job Type', 'required|max_length[30]');
+        $this->form_validation->set_rules('location', 'Location', 'required|max_length[100]');
+        $this->form_validation->set_rules('company', 'Your/Company Name', 'required|max_length[100]');
+        $this->form_validation->set_rules('url', 'URL', 'max_length[100]|prep_url');
+        $this->form_validation->set_rules('email', 'Email', 'required|max_length[100]|valid_email');
+
+        if ($this->form_validation->run() == FALSE) {
+            $this->load->view('add');
+        }
+        else {
+            $data = array(
+                'title'     =>  $this->input->post('title'),
+                'category'  =>  $this->input->post('category'),
+                'body'      =>  $this->input->post('body'),
+                'type'      =>  $this->input->post('type'),
+                'location'  =>  $this->input->post('location'),
+                'company'   =>  $this->input->post('company'),
+                'url'       =>  $this->input->post('url'),
+                'email'     =>  $this->input->post('email'),
+                'ipaddress' =>  $this->input->ip_address(),
+                'posted'    =>  time()
+            );
+            $this->db->insert('jobs', $data);
+            redirect('jobs/listings');
+        }
+    }
+
 }
