@@ -17,7 +17,16 @@
     <h2>Categories</h2>
     <ul>
         <li><a href="<?php echo site_url('jobs/listings'); ?>"><span>»</span> All</a></li>
-        <!-- Categories will go here -->
+        <?php
+        if ($categories) {
+            foreach ($categories as $row) {
+                $segments = array('jobs', 'listings', $row['id']);
+                ?>
+                <li><a href="<?php echo site_url($segments); ?>"><span>&raquo;</span> <?php echo $row['name']; ?></a></li>
+            <?php
+            }
+        }
+        ?>
     </ul>
 
 </div><!-- #sidebar -->

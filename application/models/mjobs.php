@@ -16,11 +16,24 @@ class Mjobs extends CI_Model {
         parent::__construct();
     }
 
-    function get_listings() {
+    function get_listings($category) {
         $data = array();
 
-        $this->db->order_by('id', 'desc');
-        $q = $this->db->get('jobs');
+        /*
+         * We can now do simple check on whether $category exists.
+         * If it does, we know we have to retrieve listings from only that category; otherwise,
+         *  we retrieve all listings as normal.
+         * */
+
+        if ($category) {
+            $options = array('category' => $category);
+            $this->db->order_by('id', 'desc');
+            $q = $this->db->get_where('jobs', $options);
+        }
+        else {
+            $this->db->order_by('id', 'desc');
+            $q = $this->db->get('jobs');
+        }
 
         /*First we check whether any results were returned from the database
          by running num_rows() on $q – in other words if the number of results

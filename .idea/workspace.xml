@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23c6da6-469d-458e-8c7a-be76837ce74c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/details.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/jobs.php" afterPath="$PROJECT_DIR$/application/controllers/jobs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/listings.php" afterPath="$PROJECT_DIR$/application/views/listings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/mcats.php" afterPath="$PROJECT_DIR$/application/models/mcats.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/mjobs.php" afterPath="$PROJECT_DIR$/application/models/mjobs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/sidebar.php" afterPath="$PROJECT_DIR$/application/views/sidebar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ci_demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379577668279" ignored="false" />
+    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379579419465" ignored="false" />
     <file path="/Sholly.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002030716" ignored="false" />
     <file path="/dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002460921" ignored="false" />
     <file path="/mycal.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371226985918" ignored="false" />
@@ -17,7 +19,7 @@
     <file path="/.gitignore" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371899232850" ignored="false" />
     <file path="/composer.json" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1378217225095" ignored="false" />
     <file path="/config.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379170228878" ignored="false" />
-    <file path="/jobs.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379577865519" ignored="false" />
+    <file path="/jobs.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379582055190" ignored="false" />
     <file path="/mjobs.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379171508580" ignored="false" />
     <file path="/mcats.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379171570734" ignored="false" />
     <file path="/header.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379431156903" ignored="false" />
@@ -47,11 +49,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mcats.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mcats.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/mcats.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.45822102">
+            <state line="41" column="7" selection-start="914" selection-end="914" vertical-scroll-proportion="-8.153846">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listings.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/listings.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="5" selection-start="391" selection-end="391" vertical-scroll-proportion="0.55284554">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/sidebar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="10" selection-start="736" selection-end="736" vertical-scroll-proportion="-8.807693">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jobs.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/jobs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="37" selection-start="933" selection-end="933" vertical-scroll-proportion="-10.730769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mjobs.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/mjobs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="-3.0384614">
+              <folding>
+                <element signature="e#6#121#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,17 +125,17 @@
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/libraries/Timeword.php" />
-        <option value="$PROJECT_DIR$/application/views/sidebar.php" />
-        <option value="$PROJECT_DIR$/application/views/listings.php" />
         <option value="$PROJECT_DIR$/application/views/footer.php" />
-        <option value="$PROJECT_DIR$/application/models/mcats.php" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/application/views/header.php" />
         <option value="$PROJECT_DIR$/css/style.less" />
         <option value="$PROJECT_DIR$/application/views/details.php" />
-        <option value="$PROJECT_DIR$/application/controllers/jobs.php" />
+        <option value="$PROJECT_DIR$/application/views/sidebar.php" />
         <option value="$PROJECT_DIR$/application/models/mjobs.php" />
+        <option value="$PROJECT_DIR$/application/controllers/jobs.php" />
+        <option value="$PROJECT_DIR$/application/models/mcats.php" />
+        <option value="$PROJECT_DIR$/application/views/listings.php" />
       </list>
     </option>
   </component>
@@ -315,19 +355,24 @@
       <created>1379431547260</created>
       <updated>1379431547260</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="04_job listings controller model &amp; view added to site">
+      <created>1379579430513</created>
+      <updated>1379579430513</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33175355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33280507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.6703645" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.6671949" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.267423" sideWeight="0.66824645" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.267423" sideWeight="0.6671949" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -337,7 +382,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -386,7 +430,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="03_css styles added to site" />
+    <option name="LAST_COMMIT_MESSAGE" value="04_job listings controller model &amp; view added to site" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -405,16 +449,12 @@
     <MESSAGE value="01_intial configurations for job website" />
     <MESSAGE value="02_job models, controllers &amp; view templates created along with custom library timeword" />
     <MESSAGE value="03_css styles added to site" />
+    <MESSAGE value="04_job listings controller model &amp; view added to site" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="74" selection-start="1704" selection-end="1704" vertical-scroll-proportion="-0.65384614" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/psd_to_html_5/source_files/HTML/Lesson 8/HTML/css/styles.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="107" column="1" selection-start="1780" selection-end="2826" vertical-scroll-proportion="0.91435766" />
@@ -447,13 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/listings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="28" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.7250674">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="278" column="20" selection-start="5146" selection-end="5146" vertical-scroll-proportion="0.045698926">
@@ -480,20 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/jobs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1628" selection-end="1628" vertical-scroll-proportion="-11.153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/mjobs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="5" selection-start="1439" selection-end="1439" vertical-scroll-proportion="-12.961538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/details.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="10" selection-start="1022" selection-end="1022" vertical-scroll-proportion="1.2765363">
@@ -501,9 +520,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="10" selection-start="736" selection-end="736" vertical-scroll-proportion="-8.807693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/mjobs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="-3.0384614">
+          <folding>
+            <element signature="e#6#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/jobs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="37" selection-start="933" selection-end="933" vertical-scroll-proportion="-10.730769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/mcats.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.45822102">
+        <state line="41" column="7" selection-start="914" selection-end="914" vertical-scroll-proportion="-8.153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/listings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="5" selection-start="391" selection-end="391" vertical-scroll-proportion="0.55284554">
           <folding />
         </state>
       </provider>

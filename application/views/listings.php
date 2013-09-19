@@ -13,7 +13,12 @@ $this->load->view('header');
 
 if ($listings) {
 
-    echo '<h2>All Listings <cite>' . count($listings) . '</cite></h2>';
+    if ($category) {
+        echo '<h2>' . $category['name'] . ' Listings <cite>' . count($listings) . '</cite></h2>';
+    }
+    else {
+        echo '<h2>All Listings <cite>' . count($listings) . '</cite></h2>';
+    }
     echo '<ol id="listings">';
     $counter = 0;
 

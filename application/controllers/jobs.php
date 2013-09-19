@@ -20,6 +20,7 @@ class Jobs extends CI_Controller {
          so that the title can be accessed simply as*/
 
         $data['sitetitle'] = 'AGS Job Board';
+        $data['categories'] = $this->mcats->get_categories();
         $this->load->vars($data);
     }
 
@@ -30,7 +31,8 @@ class Jobs extends CI_Controller {
     function listings() {
 
 
-        $data['listings'] = $this->mjobs->get_listings();
+        $data['listings'] = $this->mjobs->get_listings($this->uri->segment(3));
+        $data['category'] = $this->mcats->get_current_cat($this->uri->segment(3));
         $this->load->view('listings', $data);
     }
 
