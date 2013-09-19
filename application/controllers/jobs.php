@@ -34,4 +34,21 @@ class Jobs extends CI_Controller {
         $this->load->view('listings', $data);
     }
 
+    /*
+     * On the first line we're running the get_details() function from the MJobs model.
+     *  You'll see that this time, we're passing a parameter with the function.
+     * $this->uri->segment(3) retrieves the third segment of the URI. If our URL is:
+     * http://localhost/jobs-tut/index.php/jobs/details/2/
+     * Then the URI segments are (they start with the controller):
+     * /jobs/details/2/
+     * Of which the third, is "2". We're passing this through as a parameter so we can the specific listing's details.
+     * We then load the details view (which will be at /views/details.php).*/
+
+    function details() {
+        $data['details'] = $this->mjobs->get_details($this->uri->segment(3));
+        $this->load->view('details', $data);
+    }
+
+
+
 }

@@ -37,4 +37,26 @@ class Mjobs extends CI_Model {
         return $data;
     }
 
+    /*
+    *In the get_details() function we retrieve the ID passed from the controller as a parameter.
+    *  The $this->db->get_where() is executing the equivalent of this SQL
+    * statement: SELECT * FROM 'jobs' WHERE 'id' = $id LIMIT 1;
+    * */
+
+    function get_details($id) {
+        $data = array();
+
+        $options = array('id' => $id);
+        $q = $this->db->get_where('jobs', $options, 1);
+
+        if ($q->num_rows() > 0) {
+            foreach ($q->result_array() as $row) {
+                $data = $row;
+            }
+        }
+
+        $q->free_result();
+        return $data;
+    }
+
 }
