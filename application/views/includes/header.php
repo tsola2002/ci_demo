@@ -15,6 +15,7 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" href="<?php echo base_url(); ?>css/style.css"/>
+    <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery-2.0.2.min.js"></script>
 </head>
 <body>
 
