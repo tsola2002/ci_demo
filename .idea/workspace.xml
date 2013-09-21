@@ -1,106 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c23c6da6-469d-458e-8c7a-be76837ce74c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/test/lib/test-sparks/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/core/MY_Loader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/controllers/auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/arabic/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/bulgarian/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/catalan/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/croatian/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/czech/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/danish/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/dutch/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/english/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/estonian/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/finnish/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/french/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/german/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/greek/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/indonesian/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/italian/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/japanese/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/korean/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/lithuanian/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/norwegian/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/persian/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/pirate/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/polish/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/portuguese/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/romanian/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/russian/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/slovak/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/slovenian/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/spanish/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/swedish/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/turkish/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/ukrainian/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/zh_cn/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/zh_tw/auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/test/lib/bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/lib/spark/spark_types/git_spark.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/lib/spark/spark_types/hg_spark.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/test/install_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/config/ion_auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/arabic/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/bulgarian/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/catalan/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/croatian/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/czech/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/danish/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/dutch/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/english/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/estonian/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/finnish/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/french/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/german/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/greek/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/indonesian/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/italian/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/japanese/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/korean/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/lithuanian/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/norwegian/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/persian/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/pirate/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/polish/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/portuguese/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/romanian/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/russian/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/slovak/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/slovenian/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/spanish/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/swedish/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/turkish/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/ukrainian/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/zh_cn/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparks/ion_auth/2.5.0/language/zh_tw/ion_auth_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/test/phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/test/remove_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/test/search_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/lib/spark/sources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/spark" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/lib/spark/spark_cli.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/lib/spark/spark_exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/lib/spark/spark_source.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/lib/spark/spark_type.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/lib/spark/spark_utils.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/test/version_test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/lib/spark/spark_types/zip_spark.php" />
+    <list default="true" id="c23c6da6-469d-458e-8c7a-be76837ce74c" name="Default" comment="composer dot phar &amp; json added to project and sample download of netcarvers textile using composer">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/test_files/foo/bar.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/files.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/test_files/hello.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/autoload.php" afterPath="$PROJECT_DIR$/application/config/autoload.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ci_demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1378217900689" ignored="false" />
+    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379802018556" ignored="false" />
     <file path="/Sholly.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002030716" ignored="false" />
     <file path="/dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002460921" ignored="false" />
     <file path="/mycal.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371226985918" ignored="false" />
     <file path="/view.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371227060332" ignored="false" />
     <file path="/.gitignore" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371899232850" ignored="false" />
     <file path="/composer.json" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1378217225095" ignored="false" />
+    <file path="/files.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379801943421" ignored="false" />
+    <file path="/bar.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379799912347" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,28 +42,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <file leaf-file-name="files.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/files.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="1" selection-start="675" selection-end="675" vertical-scroll-proportion="0.64594126">
+            <state line="81" column="35" selection-start="1956" selection-end="1956" vertical-scroll-proportion="-14.961538">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+      <file leaf-file-name="autoload.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="1" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.6153846">
+            <state line="66" column="66" selection-start="1966" selection-end="1966" vertical-scroll-proportion="0.5608856">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MY_Loader.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/core/MY_Loader.php">
+      <file leaf-file-name="bar.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/test_files/foo/bar.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -162,7 +80,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="calendar_library" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -182,15 +100,18 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/test_files/foo/bar.txt" />
+        <option value="$PROJECT_DIR$/application/config/autoload.php" />
+        <option value="$PROJECT_DIR$/application/controllers/files.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="786" />
+    <option name="x" value="-33" />
+    <option name="y" value="11" />
+    <option name="width" value="768" />
+    <option name="height" value="762" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -218,6 +139,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -236,9 +158,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,9 +222,9 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -322,16 +297,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
-    <editor active="false" />
+    <frame x="-33" y="11" width="768" height="762" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.6703645" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23419774" sideWeight="0.67140603" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30878186" sideWeight="0.67140603" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -341,6 +315,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -410,30 +385,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="39" selection-start="2740" selection-end="2740" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="39" selection-start="2740" selection-end="2740" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="12" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" />
@@ -476,16 +427,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="93" selection-end="93" vertical-scroll-proportion="0.14003295">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="1" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.6153846">
-          <folding />
-        </state>
+        <state line="5" column="6" selection-start="93" selection-end="93" vertical-scroll-proportion="0.14003295" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/MY_Loader.php">
@@ -495,9 +437,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="1" selection-start="67" selection-end="67" vertical-scroll-proportion="0.11744387">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="1" selection-start="675" selection-end="675" vertical-scroll-proportion="0.64594126">
+        <state line="50" column="12" selection-start="1604" selection-end="1604" vertical-scroll-proportion="0.029360967">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/test_files/hello.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/test_files/foo/bar.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/files.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="35" selection-start="1956" selection-end="1956" vertical-scroll-proportion="-14.961538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="66" selection-start="1966" selection-end="1966" vertical-scroll-proportion="0.5608856">
           <folding />
         </state>
       </provider>
