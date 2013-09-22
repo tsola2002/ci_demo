@@ -1,0 +1,24 @@
+body{
+    font: 14px/18px Arial;
+}
+
+.folder{
+    background: url(../img/folder.png) no-repeat;
+
+}
+
+.file{
+    background: url(../img/file.png) no-repeat;
+
+}
+
+ul{
+    list-style: none;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+li{
+    padding-left: 20px;
+    margin: 2px;
+}

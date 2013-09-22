@@ -77,6 +77,8 @@ class Files extends CI_Controller {
     //displays folder structure in array format
     function display(){
       // print_r(directory_map(BASEPATH));
+
+        //assigns base path to a view
         $data['files'] = directory_map(BASEPATH);
 
         $this->load->view('files', $data);
