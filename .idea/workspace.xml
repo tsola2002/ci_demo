@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23c6da6-469d-458e-8c7a-be76837ce74c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/brandy.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/camron.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/fab.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/mproducts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/products.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/shop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sisquo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/slim.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/products.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/products.php" afterPath="$PROJECT_DIR$/application/views/products.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/shop.php" afterPath="$PROJECT_DIR$/application/controllers/shop.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ci_demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379928150185" ignored="false" />
+    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379943241880" ignored="false" />
     <file path="/Sholly.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002030716" ignored="false" />
     <file path="/dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002460921" ignored="false" />
     <file path="/mycal.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371226985918" ignored="false" />
@@ -22,8 +21,8 @@
     <file path="/cart_test.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379927789856" ignored="false" />
     <file path="/shop.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379941246875" ignored="false" />
     <file path="/mproducts.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379935678697" ignored="false" />
-    <file path="/products.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379943089144" ignored="false" />
-    <file path="/dummy.xml" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379932737549" ignored="false" />
+    <file path="/products.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379947738376" ignored="false" />
+    <file path="/dummy.xml" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1379947693499" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,19 +46,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="39" selection-start="2740" selection-end="2740" vertical-scroll-proportion="-8.423077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shop.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="shop.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/shop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="1" selection-start="1203" selection-end="1203" vertical-scroll-proportion="-30.615385">
+            <state line="50" column="0" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.9447323">
               <folding />
             </state>
           </provider>
@@ -68,16 +58,27 @@
       <file leaf-file-name="mproducts.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/mproducts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="9" selection-start="1014" selection-end="1014" vertical-scroll-proportion="-15.076923">
+            <state line="32" column="30" selection-start="822" selection-end="822" vertical-scroll-proportion="-11.807693">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="products.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/products.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="22" selection-start="558" selection-end="558" vertical-scroll-proportion="0.55440414">
+            <state line="99" column="0" selection-start="3262" selection-end="3262" vertical-scroll-proportion="-30.461538">
+              <folding>
+                <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart_test.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/cart_test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="83" column="0" selection-start="1833" selection-end="1833" vertical-scroll-proportion="-49.03846">
               <folding />
             </state>
           </provider>
@@ -174,74 +175,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -330,12 +263,16 @@
       <created>1379928175194</created>
       <updated>1379928175194</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implemented functional shopping cart">
+      <created>1379943247483</created>
+      <updated>1379943247483</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -343,7 +280,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.6703645" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18233387" sideWeight="0.67140603" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18233387" sideWeight="0.67140603" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -401,7 +338,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="experimenting with cart class &amp; cart functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented functional shopping cart" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -418,6 +355,7 @@
     <MESSAGE value="master branch updated to mod re-write" />
     <MESSAGE value="composer dot phar &amp; json added to project and sample download of netcarvers textile using composer" />
     <MESSAGE value="experimenting with cart class &amp; cart functions" />
+    <MESSAGE value="implemented functional shopping cart" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -482,37 +420,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/cart_test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="1833" selection-end="1833" vertical-scroll-proportion="-16.26923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="39" selection-start="2740" selection-end="2740" vertical-scroll-proportion="-8.423077">
+        <state line="53" column="39" selection-start="2740" selection-end="2740" vertical-scroll-proportion="0.40405905">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/mproducts.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/cart_test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="9" selection-start="1014" selection-end="1014" vertical-scroll-proportion="-15.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/shop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="1" selection-start="1203" selection-end="1203" vertical-scroll-proportion="-30.615385">
+        <state line="83" column="0" selection-start="1833" selection-end="1833" vertical-scroll-proportion="-49.03846">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="22" selection-start="558" selection-end="558" vertical-scroll-proportion="0.55440414">
+        <state line="99" column="0" selection-start="3262" selection-end="3262" vertical-scroll-proportion="-30.461538">
+          <folding>
+            <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/mproducts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="30" selection-start="822" selection-end="822" vertical-scroll-proportion="-11.807693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/shop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.9447323">
           <folding />
         </state>
       </provider>

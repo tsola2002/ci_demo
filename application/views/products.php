@@ -56,24 +56,25 @@
 <body>
     <div id="products">
         <ul>
-            <!--loop through products-->
+            <!--loop through products and display them using foreach alternative syntax-->
             <?php foreach($products as $product): ?>
             <li>
+                <!--  each list item should have embedded form button  -->
                 <?php echo form_open('shop/add'); ?>
+                <!--dynamically creating items ass separate divs-->
                 <div class="name"><?php echo $product->name; ?></div>
                 <div class="thumb">
+                    <!--display image using CI html image helper function-->
                     <?php
                         echo img(array(
                                       'src' => 'img/' . $product->image,
                                       'class' => 'thumb',
                                       'alt' => $product->name
-                        ));
-                    ?>
+                        ));?>
                 </div>
-                <div class="price">
-                    <?php echo $product->price; ?>
-                </div>
+                <div class="price">£<?php echo $product->price; ?></div>
                 <div class="option">
+                    <!--  conditional to check option name is present  -->
                     <?php if($product->option_name): ?>
                         <?php echo form_label($product->option_name, 'option_'. $product->id); ?>
                         <?php echo form_dropdown(
@@ -84,6 +85,7 @@
                         ); ?>
                     <?php endif; ?>
                 </div>
+
                 <?php echo form_hidden('id', $product->id); ?>
                 <?php echo form_submit('action', 'Add to Cart'); ?>
 
@@ -91,41 +93,46 @@
             </li>
             <?php endforeach; ?>
         </ul>
-        <?php if($cart = $this->cart->contents()): ?>
+    </div><!-- End of products  -->
+
+
+
+
+    <?php if($cart = $this->cart->contents()): ?>
+        <?php //print_r($cart); ?>
         <div id="cart">
             <table>
                 <caption>Shopping Cart</caption>
                 <thead>
-                    <tr>
-                        <th>Item Name</th>
-                        <th>Option</th>
-                        <th>Price</th>
-                        <th></th>
-                    </tr>
+                <tr>
+                    <th>Item Name</th>
+                    <th>Option</th>
+                    <th>Price</th>
+                    <th></th>
+                </tr>
                 </thead>
                 <?php foreach($cart as $item): ?>
                     <tr>
-                    <td><?php echo $item['name']; ?></td>
-                    <td>
-                        <?php if($this->cart->has_options($item['rowid'])){
-                            foreach($this->cart->product_options($item['rowid']) as $option => $value){
-                                echo $option .": <em>". $value. "</em>";
-                            }
-                        } ?>
-                    </td>
-                    <td><?php echo $item['subtotal']; ?></td>
-                    <td class="remove"><?php echo anchor('shop/remove/'.$item['rowid'], 'X'); ?></td>
+                        <td><?php echo $item['name']; ?></td>
+                        <td>
+                            <?php if($this->cart->has_options($item['rowid'])){
+                                foreach($this->cart->product_options($item['rowid']) as $option => $value){
+                                    echo $option .": <em>". $value. "</em>";
+                                }
+                            } ?>
+                        </td>
+                        <td><?php echo $item['subtotal']; ?></td>
+                        <td class="remove"><?php echo anchor('shop/remove/'.$item['rowid'], 'X'); ?></td>
                     </tr>
                 <?php endforeach; ?>
-                    <tr class="total">
+                <tr class="total">
                     <td colspan="2"><strong>Total</strong></td>
                     <td>£<?php echo $this->cart->total(); ?></td>
                 </tr>
                 </tr></tr></table>
-                <?php //print_r($cart); ?>
+
 
         </div>
-        <?php endif; ?>
-    </div>
+    <?php endif; ?>
 </body>
 </html>
