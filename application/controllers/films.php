@@ -27,7 +27,15 @@ class Films extends CI_Controller {
 
         $data['num_results'] = $results['num_rows'];
 
+        $this->load->library('pagination');
+        $config = array();
+        $config['base_url'] = site_url('films/display');
+        $config['total_rows'] = $data['num_results'];
+        $config['per_page'] = $limit;
+        $config['uri_segment'] = 3;
+        $this->pagination->initialize($config);
 
+        $data['pagination'] = $this->pagination->create_links();
 
         //load table view
         $this->load->view('films', $data);
