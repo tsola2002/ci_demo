@@ -24,3 +24,11 @@
      font-weight: normal;
      background: #cac9c9;
  }
+
+ .sort_asc:after{
+     content: "^";
+ }
+
+ .sort_desc:after{
+     content: "v";
+ }

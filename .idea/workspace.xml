@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23c6da6-469d-458e-8c7a-be76837ce74c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/film_model.php" afterPath="$PROJECT_DIR$/application/models/film_model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/films.php" afterPath="$PROJECT_DIR$/application/controllers/films.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/films.php" afterPath="$PROJECT_DIR$/application/views/films.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ci_demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380184510239" ignored="false" />
+    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380188415764" ignored="false" />
     <file path="/Sholly.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002030716" ignored="false" />
     <file path="/dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002460921" ignored="false" />
     <file path="/mycal.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371226985918" ignored="false" />
@@ -18,10 +18,10 @@
     <file path="/.gitignore" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371899232850" ignored="false" />
     <file path="/composer.json" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1378217225095" ignored="false" />
     <file path="/MYSQL_datasource_sholly" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380174691683" ignored="false" />
-    <file path="/films.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380187690254" ignored="false" />
-    <file path="/film_model.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380181380436" ignored="false" />
+    <file path="/films.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380192125525" ignored="false" />
+    <file path="/film_model.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380189226042" ignored="false" />
     <file path="/dummy.xml" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380185047339" ignored="false" />
-    <file path="/style.css" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380188221889" ignored="false" />
+    <file path="/style.css" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380192459508" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,35 +49,7 @@
     <favorites_list name="ci_demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="film_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/film_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="1" selection-start="714" selection-end="714" vertical-scroll-proportion="-18.307692">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="films.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/films.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="47" selection-start="915" selection-end="915" vertical-scroll-proportion="-17.653847">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="films.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/films.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.3659218">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -111,8 +83,8 @@
         <option value="$PROJECT_DIR$/css/bootstrap-custom.css" />
         <option value="$PROJECT_DIR$/css/bootstrap-responsive.css" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
-        <option value="$PROJECT_DIR$/application/models/film_model.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/models/film_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/films.php" />
         <option value="$PROJECT_DIR$/application/views/films.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
@@ -121,8 +93,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-34" />
-    <option name="y" value="-10" />
+    <option name="x" value="-86" />
+    <option name="y" value="22" />
     <option name="width" value="740" />
     <option name="height" value="786" />
   </component>
@@ -295,14 +267,18 @@
       <created>1380184537772</created>
       <updated>1380184537772</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="pagination functionality added to table">
+      <created>1380188425554</created>
+      <updated>1380188425554</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-34" y="-10" width="740" height="786" extended-state="0" />
-    <editor active="true" />
+    <frame x="-86" y="22" width="740" height="786" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296355" sideWeight="0.9954751" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296355" sideWeight="0.9954751" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -367,7 +343,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="display mysql sakila database table with appropriate records" />
+    <option name="LAST_COMMIT_MESSAGE" value="pagination functionality added to table" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -384,6 +360,7 @@
     <MESSAGE value="master branch updated to mod re-write" />
     <MESSAGE value="composer dot phar &amp; json added to project and sample download of netcarvers textile using composer" />
     <MESSAGE value="display mysql sakila database table with appropriate records" />
+    <MESSAGE value="pagination functionality added to table" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -494,13 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/film_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="1" selection-start="714" selection-end="714" vertical-scroll-proportion="-18.307692">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="48" selection-start="527" selection-end="527" vertical-scroll-proportion="0.80712163">
@@ -508,23 +478,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/films.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="47" selection-start="915" selection-end="915" vertical-scroll-proportion="-17.653847">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="144" selection-end="144" vertical-scroll-proportion="0.050531916">
+        <state line="28" column="17" selection-start="476" selection-end="476" vertical-scroll-proportion="0.60106385">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/films.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.3659218">
+        <state line="34" column="71" selection-start="859" selection-end="859" vertical-scroll-proportion="0.50558656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/films.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="42" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.72625697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/film_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="525" selection-end="525" vertical-scroll-proportion="0.5223464">
           <folding />
         </state>
       </provider>
