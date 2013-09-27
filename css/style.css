@@ -32,3 +32,8 @@
  .sort_desc:after{
      content: "v";
  }
+
+ label{
+     display: inline;
+     width: 120px;
+ }

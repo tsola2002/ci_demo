@@ -40,4 +40,18 @@ class Film_model extends CI_Model {
 
     }
 
+
+    function category_options(){
+        $rows = $this->db->select('name')
+        ->from('category')
+        ->get()->result();
+
+        $category_options = array('' => '');
+        foreach($rows as $row) {
+            $category_options[$row->name] = $row->name;
+        }
+
+        return $category_options;
+    }
+
 }

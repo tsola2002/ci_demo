@@ -26,6 +26,31 @@
         <h1>Sakila Database</h1>
     </div>
 
+    <?php echo form_open('Title', 'title'); ?>
+        <div>
+            <?php echo form_label('Title', 'title'); ?>
+            <?php echo form_input('title', set_value('title'), 'id="title"'); ?>
+        </div>
+
+    <div>
+        <?php echo form_label('Category:', 'category'); ?>
+        <?php echo form_dropdown('category', $category_options,'id="category"'); ?>
+    </div>
+
+    <div>
+        <?php echo form_label('Length', 'length'); ?>
+        <?php echo form_dropdown('length_comparison',
+           array('gt' => '>', 'gte' => '>=', 'eq' => '=', 'lte' => '<=', 'lt' => '<') ,
+        set_value('length_comparison'), 'id="length_comparison"'); ?>
+        <?php echo form_input('length', set_value('length'), 'id="length"'); ?>
+    </div>
+
+    <div>
+        <?php echo form_submit('action', 'Search'); ?>
+    </div>
+
+    <?php echo form_close(); ?>
+
 <div id="count">
     Found <?php echo $num_results; ?> Films in the database
 </div>

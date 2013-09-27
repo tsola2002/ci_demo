@@ -48,6 +48,8 @@ class Films extends CI_Controller {
         $data['sort_by'] = $sort_by;
         $data['sort_order'] = $sort_order;
 
+        $data['category_options'] = $this->film_model->category_options();
+
         //load table view
         $this->load->view('films', $data);
     }
