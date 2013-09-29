@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23c6da6-469d-458e-8c7a-be76837ce74c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/core/MY_Input.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/helpers/MY_form_helper.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/film_model.php" afterPath="$PROJECT_DIR$/application/models/film_model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/films.php" afterPath="$PROJECT_DIR$/application/controllers/films.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/films.php" afterPath="$PROJECT_DIR$/application/views/films.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ci_demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380295575208" ignored="false" />
+    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380443811140" ignored="false" />
     <file path="/Sholly.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002030716" ignored="false" />
     <file path="/dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002460921" ignored="false" />
     <file path="/mycal.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371226985918" ignored="false" />
@@ -18,10 +19,14 @@
     <file path="/.gitignore" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371899232850" ignored="false" />
     <file path="/composer.json" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1378217225095" ignored="false" />
     <file path="/MYSQL_datasource_sholly" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380174691683" ignored="false" />
-    <file path="/films.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380303609746" ignored="false" />
-    <file path="/film_model.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380303341951" ignored="false" />
+    <file path="/films.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380446129230" ignored="false" />
+    <file path="/film_model.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380444412020" ignored="false" />
     <file path="/dummy.xml" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380185047339" ignored="false" />
     <file path="/style.css" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380302757059" ignored="false" />
+    <file path="/MY_Input.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380389217496" ignored="false" />
+    <file path="/a.sql" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380356433754" ignored="false" />
+    <file path="/dummy.sql" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380356419683" ignored="false" />
+    <file path="/MY_form_helper.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1380445852783" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="film_model.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="film_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/film_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="31" selection-start="1288" selection-end="1288" vertical-scroll-proportion="-9.153846">
-              <folding>
-                <element signature="n#search#0;n#Film_model#0;n#!!top" expanded="false" />
-              </folding>
+            <state line="28" column="9" selection-start="865" selection-end="865" vertical-scroll-proportion="-0.31272084">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,20 +67,25 @@
       <file leaf-file-name="films.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/films.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="26" selection-start="1381" selection-end="1381" vertical-scroll-proportion="-15.961538">
+            <state line="29" column="23" selection-start="649" selection-end="649" vertical-scroll-proportion="-13.423077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="films.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="films.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/films.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="56" selection-start="959" selection-end="959" vertical-scroll-proportion="0.5633803">
+            <state line="59" column="126" selection-start="1769" selection-end="1769" vertical-scroll-proportion="-6.923077">
               <folding>
-                <marker date="1380303631522" expanded="true" signature="1567:1809" placeholder="..." />
-                <marker date="1380303631522" expanded="true" signature="1579:1652" placeholder="..." />
-                <marker date="1380303631522" expanded="true" signature="1952:2230" placeholder="..." />
+                <marker date="1380446074575" expanded="true" signature="677:712" placeholder="..." />
+                <marker date="1380446074575" expanded="true" signature="840:871" placeholder="..." />
+                <marker date="1380446074575" expanded="true" signature="1005:1036" placeholder="..." />
+                <marker date="1380446074575" expanded="true" signature="1373:1405" placeholder="..." />
+                <marker date="1380446074575" expanded="true" signature="1490:1557" placeholder="..." />
+                <marker date="1380446074575" expanded="true" signature="1565:1817" placeholder="..." />
+                <marker date="1380446074575" expanded="true" signature="1577:1650" placeholder="..." />
+                <marker date="1380446074575" expanded="true" signature="1960:2238" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -106,10 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/controllers/Sholly.php" />
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/application/controllers/mycal.php" />
-        <option value="$PROJECT_DIR$/application/views/view.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="db-console:/e07bfa24/427cea75-7791-4466-b947-e96f4851b440/" />
@@ -119,16 +123,20 @@
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/application/models/film_model.php" />
-        <option value="$PROJECT_DIR$/application/controllers/films.php" />
+        <option value="$PROJECT_DIR$/application/libraries/MY_Input.php" />
+        <option value="dbtable:/e07bfa24/427cea75-7791-4466-b947-e96f4851b440/sakila..ci_query" />
+        <option value="$PROJECT_DIR$/application/core/MY_Input.php" />
+        <option value="$PROJECT_DIR$/application/helpers/MY_form_helper.php" />
         <option value="$PROJECT_DIR$/application/views/films.php" />
+        <option value="$PROJECT_DIR$/application/controllers/films.php" />
+        <option value="$PROJECT_DIR$/application/models/film_model.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
-    <option name="y" value="-9" />
+    <option name="x" value="7" />
+    <option name="y" value="-6" />
     <option name="width" value="740" />
     <option name="height" value="786" />
   </component>
@@ -177,52 +185,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Database.TableEditor.Splitter" value="0.9" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -243,6 +220,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ci_demo\application\core" />
+      <recent name="C:\xampp\htdocs\ci_demo\application\libraries" />
       <recent name="C:\xampp\htdocs\ci_demo" />
     </key>
   </component>
@@ -309,19 +288,23 @@
       <created>1380199291033</created>
       <updated>1380199291033</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="created more form inputs wit dropdowns for the category section and added more changes both controller &amp; model to reflect changes on the system">
+      <created>1380303811461</created>
+      <updated>1380303811461</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="-9" width="740" height="786" extended-state="0" />
+    <frame x="7" y="-6" width="740" height="786" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19692059" sideWeight="0.6703645" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18879056" sideWeight="0.6703645" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.6703645" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3141593" sideWeight="0.6703645" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2920354" sideWeight="0.6703645" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -381,7 +364,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="field ordering system integrated into the sites table headers" />
+    <option name="LAST_COMMIT_MESSAGE" value="created more form inputs wit dropdowns for the category section and added more changes both controller &amp; model to reflect changes on the system" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -400,36 +383,14 @@
     <MESSAGE value="display mysql sakila database table with appropriate records" />
     <MESSAGE value="pagination functionality added to table" />
     <MESSAGE value="field ordering system integrated into the sites table headers" />
+    <MESSAGE value="created more form inputs wit dropdowns for the category section and added more changes both controller &amp; model to reflect changes on the system" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="93" selection-end="93" vertical-scroll-proportion="0.14003295" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="1" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/e07bfa24/ffcb58b5-6969-40ad-808b-51a18136f649/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/e07bfa24/427cea75-7791-4466-b947-e96f4851b440/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="40" selection-start="1670" selection-end="1670" vertical-scroll-proportion="0.36871508" />
@@ -456,12 +417,12 @@
             <node x="" y="">427cea75-7791-4466-b947-e96f4851b440.table:sakila.country</node>
             <node x="" y="">427cea75-7791-4466-b947-e96f4851b440.table:sakila.film_list</node>
             <node x="" y="">427cea75-7791-4466-b947-e96f4851b440.table:sakila.film_actor</node>
-            <node x="" y="">427cea75-7791-4466-b947-e96f4851b440.table:sakila.staff</node>
             <node x="" y="">427cea75-7791-4466-b947-e96f4851b440.table:sakila.city</node>
+            <node x="" y="">427cea75-7791-4466-b947-e96f4851b440.table:sakila.staff</node>
             <node x="" y="">427cea75-7791-4466-b947-e96f4851b440.table:sakila.staff_list</node>
             <node x="" y="">427cea75-7791-4466-b947-e96f4851b440.table:sakila.sales_by_store</node>
-            <node x="" y="">427cea75-7791-4466-b947-e96f4851b440.table:sakila.sales_by_film_category</node>
             <node x="" y="">427cea75-7791-4466-b947-e96f4851b440.table:sakila.film</node>
+            <node x="" y="">427cea75-7791-4466-b947-e96f4851b440.table:sakila.sales_by_film_category</node>
             <node x="" y="">427cea75-7791-4466-b947-e96f4851b440.table:sakila.actor_info</node>
             <node x="" y="">427cea75-7791-4466-b947-e96f4851b440.table:sakila.payment</node>
           </nodes>
@@ -504,35 +465,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="17" selection-start="571" selection-end="571" vertical-scroll-proportion="0.9419795">
+        <state line="37" column="17" selection-start="571" selection-end="571" vertical-scroll-proportion="0.9419795" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="19.653847" />
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/e07bfa24/427cea75-7791-4466-b947-e96f4851b440/sakila..ci_query">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Input.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="28" selection-start="540" selection-end="540" vertical-scroll-proportion="0.6238532">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/film_model.php">
+    <entry file="file://$PROJECT_DIR$/system/helpers/form_helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="31" selection-start="1288" selection-end="1288" vertical-scroll-proportion="-9.153846">
+        <state line="674" column="17" selection-start="14483" selection-end="14483" vertical-scroll-proportion="0.4019231">
           <folding>
-            <element signature="n#search#0;n#Film_model#0;n#!!top" expanded="false" />
+            <marker date="1349677112000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/helpers/MY_form_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="492" selection-end="492" vertical-scroll-proportion="0.90458715">
+          <folding>
+            <element signature="e#6#130#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/films.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="26" selection-start="1381" selection-end="1381" vertical-scroll-proportion="-15.961538">
+        <state line="29" column="23" selection-start="649" selection-end="649" vertical-scroll-proportion="-13.423077">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/films.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="56" selection-start="959" selection-end="959" vertical-scroll-proportion="0.5633803">
+        <state line="59" column="126" selection-start="1769" selection-end="1769" vertical-scroll-proportion="-6.923077">
           <folding>
-            <marker date="1380303631522" expanded="true" signature="1567:1809" placeholder="..." />
-            <marker date="1380303631522" expanded="true" signature="1579:1652" placeholder="..." />
-            <marker date="1380303631522" expanded="true" signature="1952:2230" placeholder="..." />
+            <marker date="1380446074575" expanded="true" signature="677:712" placeholder="..." />
+            <marker date="1380446074575" expanded="true" signature="840:871" placeholder="..." />
+            <marker date="1380446074575" expanded="true" signature="1005:1036" placeholder="..." />
+            <marker date="1380446074575" expanded="true" signature="1373:1405" placeholder="..." />
+            <marker date="1380446074575" expanded="true" signature="1490:1557" placeholder="..." />
+            <marker date="1380446074575" expanded="true" signature="1565:1817" placeholder="..." />
+            <marker date="1380446074575" expanded="true" signature="1577:1650" placeholder="..." />
+            <marker date="1380446074575" expanded="true" signature="1960:2238" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/film_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="9" selection-start="865" selection-end="865" vertical-scroll-proportion="-0.31272084">
+          <folding />
         </state>
       </provider>
     </entry>

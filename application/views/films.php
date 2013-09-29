@@ -26,7 +26,7 @@
         <h1>Sakila Database</h1>
     </div>
 
-    <?php echo form_open('Title', 'title'); ?>
+    <?php echo form_open('films/search'); ?>
         <div>
             <?php echo form_label('Title', 'title'); ?>
             <?php echo form_input('title', set_value('title'), 'id="title"'); ?>
@@ -57,7 +57,7 @@
 <table>
     <thead>
     <?php foreach($fields as $field_name => $field_display): ?>
-        <th <?php if($sort_by == $field_name) echo "class=\"sort_$sort_order\"" ?>><?php echo anchor("films/display/$field_name/" .
+        <th <?php if($sort_by == $field_name) echo "class=\"sort_$sort_order\"" ?>><?php echo anchor("films/display/$query_id/$field_name/" .
                 (($sort_order == 'asc' && $sort_by == $field_name )? 'desc': 'asc'),
                 $field_display); ?></th>
     <?php endforeach; ?>

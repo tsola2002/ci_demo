@@ -11,7 +11,7 @@
 
 class Film_model extends CI_Model {
 
-    function search($limit, $offset, $sort_by, $sort_order){
+    function search($query_array, $limit, $offset, $sort_by, $sort_order){
 
         $sort_order = ($sort_order == 'desc') ? 'desc' : 'asc';
         $sort_columns = array('FID','title', 'category', 'length', 'rating', 'price');
@@ -24,12 +24,46 @@ class Film_model extends CI_Model {
             ->limit($limit, $offset)
             ->order_by($sort_by, $sort_order);
 
+        if(strlen($query_array['title'])){
+            $q->like('title', $query_array['title']);
+        }
+
+        if(strlen($query_array['category'])){
+            $q->where('category', $query_array['category']);
+        }
+
+        if(strlen($query_array['length'])){
+            $operators = array('gt' => '>', 'gte' => '>=', 'eq' => '=', 'lte' => '<=', 'lt' => '<');
+            $operator = $operators[$query_array['length_comparison']];
+            $q->where("length $operator", $query_array['length']);
+
+        }
+
+
+
+
         $ret['rows'] = $q->get()->result();
 
 
         //count query
         $q = $this->db->select('COUNT(*) as count', FALSE)
             ->from('film_list');
+
+
+        if(strlen($query_array['title'])){
+            $q->like('category', $query_array['title']);
+        }
+
+        if(strlen($query_array['category'])){
+            $q->where('category', $query_array['category']);
+        }
+
+        if(strlen($query_array['length'])){
+            $operators = array('gt' => '>', 'gte' => '>=', 'eq' => '=', 'lte' => '<=', 'lt' => '<');
+            $operator = $operators[$query_array['length_comparison']];
+            $q->where("length $operator", $query_array['length']);
+
+        }
 
         //store second set of queries for count in $tmp variable
         $tmp = $q->get()->result();
