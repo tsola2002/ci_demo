@@ -9,34 +9,39 @@
 
 class Emailtest extends CI_Controller {
 
-    function index(){
+    public function __construct()
+    {
+        parent::__construct();
 
-        $data['flash'] = $this->session->flashdata('success');
-
-        $this->load->view('view', $data);
     }
 
-    function send(){
+    function index(){
 
-        $this->load->library('email');
-        $this->email->from($this->input->post('email'), $this->input->post('name'));
-        $this->email->to('sbanti2002@msn.com');
 
+        //the following piece of code sends an email to my gmail account
+        //make sure open ssl is enabled in php.ini
+        $config['protocol']    = 'smtp';
+        $config['smtp_host']    = 'ssl://smtp.gmail.com';
+        $config['smtp_port']    = '465';
+        $config['smtp_timeout'] = '7';
+        $config['smtp_user']    = 'omatsolasobotie@gmail.com';
+        $config['smtp_pass']    = 'tsobotie';
+        $config['charset']    = 'utf-8';
+        $config['newline']    = "\r\n";
+        $config['mailtype'] = 'text'; // or html
+        $config['validation'] = TRUE; // bool whether to validate email or not
+
+        $this->email->initialize($config);
+
+        $this->email->from('omatsolasobotie@gmail.com', 'myname');
+        $this->email->to('omatsolasobotie@gmail.com');
 
         $this->email->subject('Email Test');
-        $this->email->message($this->input->post('message'));
+        $this->email->message('Testing the email class.');
 
         $this->email->send();
 
-        if($this->email->send()){
-            $this->session->set_flashdata('success', 'thanks for the email');
-           redirect('http://localhost/ci_demo/emailtest/');
-
-        }else{
-            echo $this->email->print_debugger();
-        }
-
-
+        echo $this->email->print_debugger();
 
 
     }
