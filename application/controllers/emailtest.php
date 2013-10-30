@@ -33,11 +33,22 @@ class Emailtest extends CI_Controller {
 
         $this->email->initialize($config);
 
-        $this->email->from('omatsolasobotie@gmail.com', 'myname');
+        $this->email->from('omatsolasobotie@gmail.com', 'fromsholly');
         $this->email->to('omatsolasobotie@gmail.com');
 
-        $this->email->subject('Email Test');
+        $this->email->subject('Email Test From Codeigniter');
         $this->email->message('Testing the email class.');
+
+
+        $path = $this->config->item('server_root');
+        //set location of attachment file through server root
+        $file = $path .'/ci_demo/attachments/info.txt';
+
+        //this code attaches the text file to the email
+        $this->email->attach($file);
+
+        //testing to see location of path
+
 
         $this->email->send();
 
