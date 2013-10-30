@@ -16,32 +16,55 @@ class Emailtest extends CI_Controller {
     }
 
     function index(){
+        $this->load->view('newsletter');
+    }
+
+    function send(){
+
+       // echo 'hello from send'; die();
+
+        $this->load->library('form_validation');
+
+        //field name, error message, validation rules
+        $this->form_validation->set_rules('name', 'Name', 'trim|required');
+        $this->form_validation->set_rules('email', 'Email Address', 'trim|required|valid_email');
+
+        //form validation tests
+        if($this->form_validation->run()== FALSE){
+            $this->load->view('newsletter');
+        }
+        else{
+            //validation successful, send email
+            $name = $this->input->post('name');
+            $email = $this->input->post('email');
+
+            //$this->email->initialize($config);
+
+            $this->email->from('omatsolasobotie@gmail.com', 'fromsholly');
+            $this->email->to($email);
+
+            $this->email->subject('Email Test From Codeigniter');
+            $this->email->message('Testing the email class.');
+
+
+            $path = $this->config->item('server_root');
+            //set location of attachment file through server root
+            $file = $path .'/ci_demo/attachments/info.txt';
+
+            //this code attaches the text file to the email
+            $this->email->attach($file);
+
+            //testing to see location of path
+
+
+            $this->email->send();
+
+            echo $this->email->print_debugger();
+
+        }
 
 
 
-
-        //$this->email->initialize($config);
-
-        $this->email->from('omatsolasobotie@gmail.com', 'fromsholly');
-        $this->email->to('omatsolasobotie@gmail.com');
-
-        $this->email->subject('Email Test From Codeigniter');
-        $this->email->message('Testing the email class.');
-
-
-        $path = $this->config->item('server_root');
-        //set location of attachment file through server root
-        $file = $path .'/ci_demo/attachments/info.txt';
-
-        //this code attaches the text file to the email
-        $this->email->attach($file);
-
-        //testing to see location of path
-
-
-        $this->email->send();
-
-        echo $this->email->print_debugger();
 
 
     }
