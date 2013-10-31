@@ -70,6 +70,31 @@ class My_cal_model extends CI_Model {
 
     }
 
+    //takes in year & month
+    function get_calendar_data($year, $month){
+
+        //fetch content of the days
+        //by selecting date & date fields frm calendar table
+        //like function will look for a string like $year-$month
+        //pass after as wildcard(%)character
+        //sql like syntax = date LIKE "2010-02%"
+        $query = $this->db->select('date, data')
+                          ->from('calendar')
+                          ->like('date', "$year-$month", 'after')
+                          ->get();
+        //create array for population
+        $cal_data = array();
+
+        //setup loop to go tru results set
+        // retrieve row->$data, then assign it an $cal_data array
+        //to retrieve the day we use substring method
+        //so we select next two positions after 8th position
+        foreach($query->result() as $row){
+            $cal_data[substr($row->date,8,2)] = $row->data;
+;        }
+
+        return $cal_data;
+    }
 
     function generate($year, $month){
 
@@ -78,10 +103,9 @@ class My_cal_model extends CI_Model {
         // echo "hello frm cal";
         $this->load->library('calendar', $this->conf);
 
-        $cal_data = array(
-            15 => 'foo',
-            17 => 'bar'
-        );
+
+        //call other function and store its result in variable
+        $cal_data = $this->get_calendar_data($year, $month);
 
 
         //this will return the calendar
