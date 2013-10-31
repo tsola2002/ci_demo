@@ -135,4 +135,10 @@ class Test extends CI_Controller {
         foobar();
     }
 
+    //underscore in front of function name prevents it frm being called on the web
+    //so code will throw in 404ERROR
+    function _secret(){
+        echo "you called secret";
+    }
+
 }
