@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23c6da6-469d-458e-8c7a-be76837ce74c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/signup_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/emailtest.php" afterPath="$PROJECT_DIR$/application/controllers/emailtest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/newsletter.php" afterPath="$PROJECT_DIR$/application/views/newsletter.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ci_demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383177078594" ignored="false" />
+    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383211063135" ignored="false" />
     <file path="/Sholly.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002030716" ignored="false" />
     <file path="/dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002460921" ignored="false" />
     <file path="/mycal.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371226985918" ignored="false" />
@@ -41,48 +37,7 @@
     <favorites_list name="ci_demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="emailtest.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/controllers/emailtest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="1" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.5876106">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signup_view.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/signup_view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="40" selection-start="172" selection-end="172" vertical-scroll-proportion="-7.8461537">
-              <folding>
-                <element signature="e#6#127#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newsletter.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/newsletter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="34" selection-start="368" selection-end="368" vertical-scroll-proportion="-13.730769">
-              <folding>
-                <element signature="e#6#126#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="30" selection-start="509" selection-end="509" vertical-scroll-proportion="-5.6153846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -123,10 +78,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="42" />
-    <option name="y" value="-17" />
+    <option name="x" value="759" />
     <option name="width" value="827" />
-    <option name="height" value="785" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -173,38 +127,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -215,9 +137,9 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="FullScreen" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -302,20 +224,23 @@
       <created>1383177087315</created>
       <updated>1383177087315</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="newsletter form styled &amp; email functionality code refactored">
+      <created>1383179160644</created>
+      <updated>1383179160644</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="-17" width="827" height="785" extended-state="0" />
-    <editor active="true" />
+    <frame x="759" y="0" width="827" height="768" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.6703645" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3019608" sideWeight="0.6703645" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30980393" sideWeight="0.6703645" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -325,6 +250,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -373,7 +299,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="email functionality implemented through form submission" />
+    <option name="LAST_COMMIT_MESSAGE" value="newsletter form styled &amp; email functionality code refactored" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -392,6 +318,7 @@
     <MESSAGE value="attachment functionality added to email function" />
     <MESSAGE value="code factoring implemented by abstracting mail config variables to config/email.php" />
     <MESSAGE value="email functionality implemented through form submission" />
+    <MESSAGE value="newsletter form styled &amp; email functionality code refactored" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -441,62 +368,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/attachments/info.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="3" selection-start="192" selection-end="192" vertical-scroll-proportion="0.30088496">
-          <folding />
-        </state>
+        <state line="10" column="3" selection-start="192" selection-end="192" vertical-scroll-proportion="0.30088496" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="86" selection-end="86" vertical-scroll-proportion="-1.0123894">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="30" selection-start="509" selection-end="509" vertical-scroll-proportion="-5.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/newsletter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="34" selection-start="368" selection-end="368" vertical-scroll-proportion="-13.730769">
-          <folding>
-            <element signature="e#6#126#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="2" column="7" selection-start="86" selection-end="86" vertical-scroll-proportion="-1.0123894" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="22" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.77483445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/signup_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="40" selection-start="172" selection-end="172" vertical-scroll-proportion="-7.8461537">
-          <folding>
-            <element signature="e#6#127#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="80" column="22" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.77483445" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/emailtest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="1" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.5876106">
-          <folding />
-        </state>
+        <state line="61" column="1" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.5876106" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/signup_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="40" selection-start="172" selection-end="172" vertical-scroll-proportion="0.3529412" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/newsletter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="34" selection-start="368" selection-end="368" vertical-scroll-proportion="0.6318584" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="30" selection-start="509" selection-end="509" vertical-scroll-proportion="0.2584071" />
       </provider>
     </entry>
   </component>
