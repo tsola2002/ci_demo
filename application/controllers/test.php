@@ -96,9 +96,39 @@ class Test extends CI_Controller {
         //xss
         $this->input->post('comment', true);
 
-        $clean_string = $this->input->xss_clean($string);
+       // $clean_string = $this->input->xss_clean($string);
     }
 
+    function output(){
+        //php function
+       // htmlspecialchars($string);
 
+        //automatically filtered
+       // echo anchor($url);
+
+     //   echo form_input('name', set_value('name'));
+
+
+
+}
+
+    function session(){
+        $this->load->library('session');
+
+        $this->session->set_userdata('user_id',2);
+    }
+
+    function session_read(){
+        $this->load->library('session');
+
+        $user_id = $this->session->userdata('user_id');
+
+        if($user_id == 1){
+            echo "Your have all access";
+        }
+        else{
+            echo "You have limited access. User_id = $user_id";
+        }
+    }
 
 }

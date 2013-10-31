@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23c6da6-469d-458e-8c7a-be76837ce74c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/test.php" afterPath="$PROJECT_DIR$/application/controllers/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ci_demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383214093615" ignored="false" />
+    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383216895955" ignored="false" />
     <file path="/Sholly.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002030716" ignored="false" />
     <file path="/dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002460921" ignored="false" />
     <file path="/mycal.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371226985918" ignored="false" />
     <file path="/view.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371227060332" ignored="false" />
     <file path="/.gitignore" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371899232850" ignored="false" />
     <file path="/composer.json" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1378217225095" ignored="false" />
-    <file path="/test.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383216737821" ignored="false" />
+    <file path="/test.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383217914074" ignored="false" />
     <file path="/config.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383216626272" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +51,22 @@
       <file leaf-file-name="test.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="3" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.7472119">
-              <folding />
+            <state line="120" column="28" selection-start="2798" selection-end="2798" vertical-scroll-proportion="0.75317603">
+              <folding>
+                <element signature="n#allowed_chars#0;n#Test#0;n#!!top" expanded="false" />
+                <element signature="n#md5_test#0;n#Test#0;n#!!top" expanded="false" />
+                <element signature="n#sha1_test#0;n#Test#0;n#!!top" expanded="false" />
+                <element signature="n#sha1_test2#0;n#Test#0;n#!!top" expanded="false" />
+                <element signature="n#encode#0;n#Test#0;n#!!top" expanded="false" />
+                <element signature="n#decode#0;n#Test#0;n#!!top" expanded="false" />
+                <element signature="n#encode_with_key#0;n#Test#0;n#!!top" expanded="false" />
+                <element signature="n#decode_with_key#0;n#Test#0;n#!!top" expanded="false" />
+                <element signature="n#sql#0;n#Test#0;n#!!top" expanded="false" />
+                <element signature="n#xss_filter#0;n#Test#0;n#!!top" expanded="false" />
+                <element signature="n#output#0;n#Test#0;n#!!top" expanded="false" />
+                <element signature="n#session#0;n#Test#0;n#!!top" expanded="false" />
+                <element signature="n#session_read#0;n#Test#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,8 +108,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="69" />
-    <option name="y" value="-12" />
+    <option name="x" value="-209" />
+    <option name="y" value="-9" />
     <option name="width" value="827" />
     <option name="height" value="758" />
   </component>
@@ -262,11 +275,15 @@
       <created>1383214098434</created>
       <updated>1383214098434</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="some encryption functions implemented along with xss filtering">
+      <created>1383216917193</created>
+      <updated>1383216917193</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="69" y="-12" width="827" height="758" extended-state="0" />
+    <frame x="-209" y="-9" width="827" height="758" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -333,7 +350,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="configured allowed uri characters in test.php &amp; config.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="some encryption functions implemented along with xss filtering" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -350,9 +367,12 @@
     <MESSAGE value="master branch updated to mod re-write" />
     <MESSAGE value="composer dot phar &amp; json added to project and sample download of netcarvers textile using composer" />
     <MESSAGE value="configured allowed uri characters in test.php &amp; config.php" />
+    <MESSAGE value="some encryption functions implemented along with xss filtering" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/application/config/database.php">
@@ -440,8 +460,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="3" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.7472119">
-          <folding />
+        <state line="120" column="28" selection-start="2798" selection-end="2798" vertical-scroll-proportion="0.75317603">
+          <folding>
+            <element signature="n#allowed_chars#0;n#Test#0;n#!!top" expanded="false" />
+            <element signature="n#md5_test#0;n#Test#0;n#!!top" expanded="false" />
+            <element signature="n#sha1_test#0;n#Test#0;n#!!top" expanded="false" />
+            <element signature="n#sha1_test2#0;n#Test#0;n#!!top" expanded="false" />
+            <element signature="n#encode#0;n#Test#0;n#!!top" expanded="false" />
+            <element signature="n#decode#0;n#Test#0;n#!!top" expanded="false" />
+            <element signature="n#encode_with_key#0;n#Test#0;n#!!top" expanded="false" />
+            <element signature="n#decode_with_key#0;n#Test#0;n#!!top" expanded="false" />
+            <element signature="n#sql#0;n#Test#0;n#!!top" expanded="false" />
+            <element signature="n#xss_filter#0;n#Test#0;n#!!top" expanded="false" />
+            <element signature="n#output#0;n#Test#0;n#!!top" expanded="false" />
+            <element signature="n#session#0;n#Test#0;n#!!top" expanded="false" />
+            <element signature="n#session_read#0;n#Test#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
