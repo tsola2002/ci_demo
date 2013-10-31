@@ -96,13 +96,40 @@ class My_cal_model extends CI_Model {
         return $cal_data;
     }
 
+
+    function add_calendar_data($date, $data){
+
+
+        if($this->db->select('date')->from('calendar')
+                                    ->where('date', $date)
+                                    ->count_all_results()) {
+
+            $this->db->where('date', $date)
+                     ->update('calendar', array(
+                    'date' => $date,
+                    'data' => $data
+
+            ));
+
+        }
+        else{
+            $this->db->insert('calendar', array(
+                'date' => $date,
+                'data' => $data
+            ));
+        }
+
+
+    }
+
     function generate($year, $month){
 
 
 
-        // echo "hello frm cal";
+
         $this->load->library('calendar', $this->conf);
 
+        $this->add_calendar_data('2013-10-31', 'new update');
 
         //call other function and store its result in variable
         $cal_data = $this->get_calendar_data($year, $month);
