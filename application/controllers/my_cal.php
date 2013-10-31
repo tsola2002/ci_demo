@@ -13,18 +13,12 @@ class My_cal extends CI_Controller {
 
     function display($year = null, $month = null){
 
-        $conf = array(
-            'start_day' => 'monday',
-            'show_next_prev' => true,
-            'next_prev_url' => base_url() .'my_cal/display'
-        );
+        $this->load->model('my_cal_model');
+        $data['calendar'] = $this->my_cal_model->generate($year, $month);
+
+        $this->load->view('my_cal', $data);
 
 
-       // echo "hello frm cal";
-        $this->load->library('calendar', $conf);
-
-        //this will output the calendar
-        echo $this->calendar->generate($year, $month);
     }
 
 }
