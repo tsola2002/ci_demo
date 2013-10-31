@@ -131,4 +131,8 @@ class Test extends CI_Controller {
         }
     }
 
+    function error(){
+        foobar();
+    }
+
 }
