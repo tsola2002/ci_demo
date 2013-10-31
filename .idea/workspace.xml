@@ -2,21 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23c6da6-469d-458e-8c7a-be76837ce74c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/signup_view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/emailtest.php" afterPath="$PROJECT_DIR$/application/controllers/emailtest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/newsletter.php" afterPath="$PROJECT_DIR$/application/views/newsletter.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ci_demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383177009447" ignored="false" />
+    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383177078594" ignored="false" />
     <file path="/Sholly.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002030716" ignored="false" />
     <file path="/dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002460921" ignored="false" />
     <file path="/mycal.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371226985918" ignored="false" />
     <file path="/view.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371227060332" ignored="false" />
     <file path="/.gitignore" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371899232850" ignored="false" />
-    <file path="/emailtest.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383176305937" ignored="false" />
+    <file path="/emailtest.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383178862259" ignored="false" />
     <file path="/info.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383158366584" ignored="false" />
     <file path="/config.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383158438375" ignored="false" />
-    <file path="/newsletter.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383176644833" ignored="false" />
+    <file path="/newsletter.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383178410230" ignored="false" />
     <file path="/dummy.xml" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383161829483" ignored="false" />
+    <file path="/style.css" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383178441307" ignored="false" />
+    <file path="/signup_view.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383178655944" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +45,19 @@
       <file leaf-file-name="emailtest.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/emailtest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="31" selection-start="735" selection-end="735" vertical-scroll-proportion="-0.019469026">
+            <state line="61" column="1" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.5876106">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup_view.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/signup_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="40" selection-start="172" selection-end="172" vertical-scroll-proportion="-7.8461537">
+              <folding>
+                <element signature="e#6#127#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,7 +65,7 @@
       <file leaf-file-name="newsletter.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/newsletter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="-20.73077">
+            <state line="21" column="34" selection-start="368" selection-end="368" vertical-scroll-proportion="-13.730769">
               <folding>
                 <element signature="e#6#126#0" expanded="true" />
               </folding>
@@ -98,14 +115,16 @@
         <option value="$PROJECT_DIR$/application/config/email.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/views/newsletter.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/application/views/signup_view.php" />
         <option value="$PROJECT_DIR$/application/controllers/emailtest.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-31" />
-    <option name="y" value="-11" />
+    <option name="x" value="42" />
+    <option name="y" value="-17" />
     <option name="width" value="827" />
     <option name="height" value="785" />
   </component>
@@ -164,20 +183,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="attachments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -197,42 +202,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,11 +298,15 @@
       <created>1383177059264</created>
       <updated>1383177059264</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="email functionality implemented through form submission">
+      <created>1383177087315</created>
+      <updated>1383177087315</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-31" y="-11" width="827" height="785" extended-state="0" />
+    <frame x="42" y="-17" width="827" height="785" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -426,16 +399,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="12" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CI_phpStorm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -506,16 +469,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/newsletter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="-20.73077">
+        <state line="21" column="34" selection-start="368" selection-end="368" vertical-scroll-proportion="-13.730769">
           <folding>
             <element signature="e#6#126#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="22" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.77483445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/signup_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="40" selection-start="172" selection-end="172" vertical-scroll-proportion="-7.8461537">
+          <folding>
+            <element signature="e#6#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/emailtest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="31" selection-start="735" selection-end="735" vertical-scroll-proportion="-0.019469026">
+        <state line="61" column="1" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.5876106">
           <folding />
         </state>
       </provider>

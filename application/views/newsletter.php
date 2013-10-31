@@ -14,14 +14,12 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
-    <style type="text/css">
-       label{
-           display: block;
-       }
-    </style>
+    <link rel="stylesheet" href="<?php echo base_url(); ?>css/style.css"/>
+
 </head>
 <body>
  <div id="newsletter">
+     <h2>Signup For the Newsletter</h2>
      <?php echo form_open('emailtest/send'); ?>
 
      <?php

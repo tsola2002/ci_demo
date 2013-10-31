@@ -57,9 +57,16 @@ class Emailtest extends CI_Controller {
             //testing to see location of path
 
 
-            $this->email->send();
+            //$this->email->send();
 
-            echo $this->email->print_debugger();
+            if($this->email->send()){
+                $this->load->view('signup_view');
+            }
+            else{
+                show_error($this->email->print_debugger());
+            }
+
+            //echo $this->email->print_debugger();
 
         }
 
