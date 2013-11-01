@@ -59,9 +59,29 @@
             // alert(day_num);
 
             //get data input frm user
-            day_data = prompt('Enter Stuff');
+            //also show the data by finding html content
+            day_data = prompt('Enter Stuff', $(this).find('.content').html());
 
+            //check for null incase user clicks cancel
+            if(day_data != null){
 
+                //capture user input using ajax
+                $.ajax({
+                    //targeted destination url
+                    url: window.location,
+                    type: 'POST',
+                    //data to be sent as an array
+                    data: {
+                       day: day_num,
+                       data: day_data
+                    },
+                    //function to be executed on success
+                    success: function(msg){
+                        //on success just reload the page
+                        location.reload();
+                    }
+                });
+            }
 
 
         });

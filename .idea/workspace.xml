@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23c6da6-469d-458e-8c7a-be76837ce74c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ci_demo.iml" afterPath="$PROJECT_DIR$/.idea/ci_demo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/my_cal.php" afterPath="$PROJECT_DIR$/application/controllers/my_cal.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/my_cal.php" afterPath="$PROJECT_DIR$/application/views/my_cal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/my_cal_model.php" afterPath="$PROJECT_DIR$/application/models/my_cal_model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ci_demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383294668869" ignored="false" />
+    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383295961110" ignored="false" />
     <file path="/Sholly.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002030716" ignored="false" />
     <file path="/dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002460921" ignored="false" />
-    <file path="/my_cal.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383295742058" ignored="false" />
+    <file path="/my_cal.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383297964675" ignored="false" />
     <file path="/my_cal_model.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383295569053" ignored="false" />
     <file path="/dummy.xml" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383240491080" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,7 +36,7 @@
       <file leaf-file-name="my_cal_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/my_cal_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="37" selection-start="1196" selection-end="1196" vertical-scroll-proportion="-2.7307692">
+            <state line="37" column="41" selection-start="998" selection-end="998" vertical-scroll-proportion="-10.038462">
               <folding>
                 <marker date="1383295573852" expanded="true" signature="562:1915" placeholder="..." />
                 <marker date="1383295573852" expanded="true" signature="607:936" placeholder="..." />
@@ -52,7 +51,7 @@
       <file leaf-file-name="my_cal.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/my_cal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="26" selection-start="240" selection-end="240" vertical-scroll-proportion="-4.576923">
+            <state line="28" column="27" selection-start="651" selection-end="651" vertical-scroll-proportion="-9.692307">
               <folding />
             </state>
           </provider>
@@ -61,7 +60,7 @@
       <file leaf-file-name="my_cal.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/my_cal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="12" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.7150838">
+            <state line="62" column="76" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.5775701">
               <folding>
                 <element signature="e#6#122#0" expanded="true" />
               </folding>
@@ -95,9 +94,9 @@
         <option value="$PROJECT_DIR$/application/controllers/Sholly.php" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
-        <option value="$PROJECT_DIR$/application/controllers/my_cal.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/models/my_cal_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/my_cal.php" />
         <option value="$PROJECT_DIR$/application/views/my_cal.php" />
       </list>
     </option>
@@ -311,13 +310,18 @@
       <created>1383244260466</created>
       <updated>1383244260466</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="integrate jquery into calendar to make user trigger alert box by clicking date">
+      <created>1383295969065</created>
+      <updated>1383295969065</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-123" y="-10" width="827" height="755" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -333,7 +337,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -382,7 +385,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="update calendar functionality added to application" />
+    <option name="LAST_COMMIT_MESSAGE" value="integrate jquery into calendar to make user trigger alert box by clicking date" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -400,6 +403,7 @@
     <MESSAGE value="calendar template for structure added &amp; calendar has been styled to look nicer" />
     <MESSAGE value="integrate database table &amp; insert functionality  into calendar" />
     <MESSAGE value="update calendar functionality added to application" />
+    <MESSAGE value="integrate jquery into calendar to make user trigger alert box by clicking date" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -486,14 +490,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/my_cal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="240" selection-end="240" vertical-scroll-proportion="-4.576923">
+        <state line="28" column="27" selection-start="651" selection-end="651" vertical-scroll-proportion="-9.692307">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/my_cal_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="37" selection-start="1196" selection-end="1196" vertical-scroll-proportion="-2.7307692">
+        <state line="37" column="41" selection-start="998" selection-end="998" vertical-scroll-proportion="-10.038462">
           <folding>
             <marker date="1383295573852" expanded="true" signature="562:1915" placeholder="..." />
             <marker date="1383295573852" expanded="true" signature="607:936" placeholder="..." />
@@ -506,7 +510,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/my_cal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="12" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.7150838">
+        <state line="62" column="76" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.5775701">
           <folding>
             <element signature="e#6#122#0" expanded="true" />
           </folding>
