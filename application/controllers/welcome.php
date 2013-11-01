@@ -23,7 +23,7 @@ class Welcome extends CI_Controller {
     {
         parent::__construct();
         //this loads the profiler
-        $this->output->enable_profiler(TRUE);
+        //$this->output->enable_profiler(TRUE);
     }
 
 	public function index()
