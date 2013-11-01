@@ -11,6 +11,13 @@
 
 class My_cal extends CI_Controller {
 
+    public function __construct()
+    {
+        parent::__construct();
+        //this loads the profiler
+        $this->output->enable_profiler(TRUE);
+    }
+
     function display($year = null, $month = null){
 
         //initialize year & month values because null cannot be accepted

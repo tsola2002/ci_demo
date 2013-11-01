@@ -77,12 +77,11 @@
                     },
                     //function to be executed on success
                     success: function(msg){
-                        //on success just reload the page
+                        //on success just reload the same page
                         location.reload();
                     }
                 });
             }
-
 
         });
     });
