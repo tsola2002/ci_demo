@@ -40,7 +40,7 @@ class My_cal_model extends CI_Model {
        {week_row_end}</tr>{/week_row_end}
 
        {cal_row_start}<tr class="days">{/cal_row_start}
-       {cal_cell_start}<td>{/cal_cell_start}
+       {cal_cell_start}<td class="day">{/cal_cell_start}
 
        {cal_cell_content}
         <div class="day_num">{day}</div>
@@ -129,7 +129,7 @@ class My_cal_model extends CI_Model {
 
         $this->load->library('calendar', $this->conf);
 
-        $this->add_calendar_data('2013-10-31', 'new update');
+       // $this->add_calendar_data('2013-10-31', 'new game');
 
         //call other function and store its result in variable
         $cal_data = $this->get_calendar_data($year, $month);

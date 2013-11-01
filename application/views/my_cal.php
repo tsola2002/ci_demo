@@ -43,8 +43,29 @@
             color: #00f;
         }
     </style>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 <body>
 <?php echo $calendar; ?>
+<script type="text/javascript">
+    $(document).ready(function(){
+         //attach click event to each cell
+        $('.calendar .days').click(function(){
+
+            //fetch clicked table cell
+            day_num = $(this).find('.day_num').html();
+
+            //spit out date name in alert box
+            // alert(day_num);
+
+            //get data input frm user
+            day_data = prompt('Enter Stuff');
+
+
+
+
+        });
+    });
+</script>
 </body>
 </html>
