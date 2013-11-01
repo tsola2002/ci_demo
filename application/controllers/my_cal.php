@@ -39,8 +39,10 @@ class My_cal extends CI_Controller {
             );
         }
 
-
+        //adding benchmark to calculate amount of time taken for function to render
+        $this->benchmark->mark('generate_start');
         $data['calendar'] = $this->my_cal_model->generate($year, $month);
+        $this->benchmark->mark('generate_end');
 
         $this->load->view('my_cal', $data);
 
