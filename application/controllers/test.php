@@ -39,7 +39,32 @@ class Test extends CI_Controller {
     function form(){
         $this->load->library('form_validation');
 
-        $this->form_validation->test();
+        //$this->form_validation->test();
+
+        $this->load->view('form');
     }
+
+    function form_submit(){
+
+        $this->load->library('Form_validation');
+
+        //set rules for validation of form
+        $this->form_validation->set_rules('username', 'Username',
+                    'required|alpha_numeric|min_length[6]');
+
+        $this->form_validation->set_rules('password', 'Password',
+            'required|min_length[6]|strong_pass[3]');
+
+        //do a check to see if rules were ran properly
+        //run function will return false if any one of the rules are not satisfied
+        if(!$this->form_validation->run()){
+            $this->load->view('form');
+        } else{
+            echo "success";
+        }
+
+    }
+
+
 
 }
