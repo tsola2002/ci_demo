@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23c6da6-469d-458e-8c7a-be76837ce74c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/Foo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/date_helper.php" afterPath="$PROJECT_DIR$/application/helpers/date_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/test.php" afterPath="$PROJECT_DIR$/application/controllers/test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/Foo.php" afterPath="$PROJECT_DIR$/application/libraries/Foo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ci_demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383382977471" ignored="false" />
+    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383383666738" ignored="false" />
     <file path="/Sholly.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002030716" ignored="false" />
     <file path="/dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002460921" ignored="false" />
     <file path="/mycal.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371226985918" ignored="false" />
@@ -19,7 +17,7 @@
     <file path="/math_helper.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383381343367" ignored="false" />
     <file path="/test.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383383415918" ignored="false" />
     <file path="/date_helper.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383382501781" ignored="false" />
-    <file path="/Foo.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383383354132" ignored="false" />
+    <file path="/Foo.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383384218668" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="32" selection-start="790" selection-end="790" vertical-scroll-proportion="0.8483685">
+            <state line="34" column="32" selection-start="790" selection-end="790" vertical-scroll-proportion="-17.0">
               <folding />
             </state>
           </provider>
@@ -72,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Foo.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Foo.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/libraries/Foo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="44" selection-start="314" selection-end="314" vertical-scroll-proportion="-5.8846154">
+            <state line="17" column="7" selection-start="195" selection-end="195" vertical-scroll-proportion="0.29366603">
               <folding />
             </state>
           </provider>
@@ -114,15 +112,15 @@
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/helpers/math_helper.php" />
         <option value="$PROJECT_DIR$/application/helpers/date_helper.php" />
-        <option value="$PROJECT_DIR$/application/libraries/Foo.php" />
         <option value="$PROJECT_DIR$/application/controllers/test.php" />
+        <option value="$PROJECT_DIR$/application/libraries/Foo.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-204" />
-    <option name="y" value="1" />
+    <option name="x" value="47" />
+    <option name="y" value="-10" />
     <option name="width" value="827" />
     <option name="height" value="741" />
   </component>
@@ -324,11 +322,15 @@
       <created>1383382980495</created>
       <updated>1383382980495</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="creating a standalone library with some functionality to be tested in test controller">
+      <created>1383383670564</created>
+      <updated>1383383670564</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-204" y="1" width="827" height="741" extended-state="0" />
+    <frame x="47" y="-10" width="827" height="741" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -395,7 +397,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="date_helper.php extended with added function which is tested in test controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating a standalone library with some functionality to be tested in test controller" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -413,6 +415,7 @@
     <MESSAGE value="composer dot phar &amp; json added to project and sample download of netcarvers textile using composer" />
     <MESSAGE value="helper file created &amp; tested in test controller" />
     <MESSAGE value="date_helper.php extended with added function which is tested in test controller" />
+    <MESSAGE value="creating a standalone library with some functionality to be tested in test controller" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -495,6 +498,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="32" selection-start="790" selection-end="790" vertical-scroll-proportion="-17.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/helpers/date_helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="96" selection-start="270" selection-end="270" vertical-scroll-proportion="-7.8461537">
@@ -506,14 +516,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/Foo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="44" selection-start="314" selection-end="314" vertical-scroll-proportion="-5.8846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="32" selection-start="790" selection-end="790" vertical-scroll-proportion="0.8483685">
+        <state line="17" column="7" selection-start="195" selection-end="195" vertical-scroll-proportion="0.29366603">
           <folding />
         </state>
       </provider>
