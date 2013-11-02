@@ -35,4 +35,11 @@ class Test extends CI_Controller {
         $this->foo->test('bar');
     }
 
+    //testing extended form validation library
+    function form(){
+        $this->load->library('form_validation');
+
+        $this->form_validation->test();
+    }
+
 }
