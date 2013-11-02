@@ -20,4 +20,12 @@ class Test extends CI_Controller {
         echo "A circle with radius $radius has area: ". circle_area($radius);
     }
 
+
+    //spits out current date frm custom date_helper.php
+    function show_mysql_date(){
+        $this->load->helper('date');
+
+        echo "Current date in mysql format is:". date_mysql();
+    }
+
 }

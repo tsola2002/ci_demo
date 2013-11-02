@@ -9,6 +9,10 @@
  *
  */
 
+
+//A helper is a collection of functions
+//you can create a helper by creating a php file & appending _helper after filename
+
 function circle_area($radius){
     return $radius = $radius * pi();
 }
