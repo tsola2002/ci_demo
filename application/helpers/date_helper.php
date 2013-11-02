@@ -10,6 +10,7 @@
  */
 
 //this file extends the date helper function
+//when extending an existing helper, the name of the extension file must match the existing file
 
 
 function date_mysql($time = NULL){

@@ -28,4 +28,11 @@ class Test extends CI_Controller {
         echo "Current date in mysql format is:". date_mysql();
     }
 
+    //function to run custom library Foo.php in libraries folder
+    function new_library(){
+        $this->load->library('Foo');
+
+        $this->foo->test('bar');
+    }
+
 }

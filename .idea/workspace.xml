@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23c6da6-469d-458e-8c7a-be76837ce74c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/helpers/date_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/math_helper.php" afterPath="$PROJECT_DIR$/application/helpers/math_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/Foo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/date_helper.php" afterPath="$PROJECT_DIR$/application/helpers/date_helper.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/test.php" afterPath="$PROJECT_DIR$/application/controllers/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ci_demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383382881894" ignored="false" />
+    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383382977471" ignored="false" />
     <file path="/Sholly.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002030716" ignored="false" />
     <file path="/dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002460921" ignored="false" />
     <file path="/mycal.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371226985918" ignored="false" />
@@ -17,8 +17,9 @@
     <file path="/.gitignore" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371899232850" ignored="false" />
     <file path="/composer.json" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1378217225095" ignored="false" />
     <file path="/math_helper.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383381343367" ignored="false" />
-    <file path="/test.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383382648862" ignored="false" />
+    <file path="/test.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383383415918" ignored="false" />
     <file path="/date_helper.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383382501781" ignored="false" />
+    <file path="/Foo.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383383354132" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,21 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="math_helper.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/helpers/math_helper.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0">
-              <folding>
-                <element signature="e#6#127#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="44" selection-start="475" selection-end="475" vertical-scroll-proportion="0.4894434">
+            <state line="34" column="32" selection-start="790" selection-end="790" vertical-scroll-proportion="0.8483685">
               <folding />
             </state>
           </provider>
@@ -74,10 +64,19 @@
       <file leaf-file-name="date_helper.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/helpers/date_helper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="56" selection-start="268" selection-end="268" vertical-scroll-proportion="-10.461538">
+            <state line="12" column="96" selection-start="270" selection-end="270" vertical-scroll-proportion="-7.8461537">
               <folding>
                 <element signature="e#6#127#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Foo.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/libraries/Foo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="44" selection-start="314" selection-end="314" vertical-scroll-proportion="-5.8846154">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,14 +114,15 @@
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/helpers/math_helper.php" />
         <option value="$PROJECT_DIR$/application/helpers/date_helper.php" />
+        <option value="$PROJECT_DIR$/application/libraries/Foo.php" />
         <option value="$PROJECT_DIR$/application/controllers/test.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="30" />
-    <option name="y" value="-2" />
+    <option name="x" value="-204" />
+    <option name="y" value="1" />
     <option name="width" value="827" />
     <option name="height" value="741" />
   </component>
@@ -231,7 +231,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
+              <option name="myItemId" value="libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,11 +320,15 @@
       <created>1383381958555</created>
       <updated>1383381958555</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="date_helper.php extended with added function which is tested in test controller">
+      <created>1383382980495</created>
+      <updated>1383382980495</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="30" y="-2" width="827" height="741" extended-state="0" />
+    <frame x="-204" y="1" width="827" height="741" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -391,7 +395,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="helper file created &amp; tested in test controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="date_helper.php extended with added function which is tested in test controller" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -408,16 +412,12 @@
     <MESSAGE value="master branch updated to mod re-write" />
     <MESSAGE value="composer dot phar &amp; json added to project and sample download of netcarvers textile using composer" />
     <MESSAGE value="helper file created &amp; tested in test controller" />
+    <MESSAGE value="date_helper.php extended with added function which is tested in test controller" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="12" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CI_phpStorm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -472,9 +472,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+    <entry file="file://$PROJECT_DIR$/system/helpers/date_helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="47" selection-start="526" selection-end="526" vertical-scroll-proportion="-7.6153846">
+        <state line="436" column="8" selection-start="9308" selection-end="9308" vertical-scroll-proportion="9.688">
           <folding />
         </state>
       </provider>
@@ -488,25 +488,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/helpers/date_helper.php">
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="436" column="8" selection-start="9308" selection-end="9308" vertical-scroll-proportion="9.688">
+        <state line="16" column="47" selection-start="526" selection-end="526" vertical-scroll-proportion="-7.6153846">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/helpers/date_helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="56" selection-start="268" selection-end="268" vertical-scroll-proportion="-10.461538">
+        <state line="12" column="96" selection-start="270" selection-end="270" vertical-scroll-proportion="-7.8461537">
           <folding>
             <element signature="e#6#127#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/Foo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="44" selection-start="314" selection-end="314" vertical-scroll-proportion="-5.8846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="44" selection-start="475" selection-end="475" vertical-scroll-proportion="0.4894434">
+        <state line="34" column="32" selection-start="790" selection-end="790" vertical-scroll-proportion="0.8483685">
           <folding />
         </state>
       </provider>
