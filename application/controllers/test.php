@@ -48,7 +48,7 @@ class Test extends CI_Controller {
             'img_url' => base_url().'captcha/',
             'img_width' => 150,
             'img_height' => 30,
-            ''
+            'word' => 'word'
         );
 
         //creating the captcha
@@ -76,13 +76,22 @@ class Test extends CI_Controller {
         $this->form_validation->set_rules('password', 'Password',
             'required|min_length[6]|strong_pass[3]');
 
+        //checking to see if user submitted captcha matches browser captcha
+        if(strtolower($this->session->userdata('captcha') !=strtolower($_POST['captcha']))){
+           echo "<p>the captcha code was incorrect, you typed in" .$_POST['captcha']. "the code was" .$this->session->userdata('captcha'). "</p>";
+
+
+        }
+
         //do a check to see if rules were ran properly
         //run function will return false if any one of the rules are not satisfied
-        if(!$this->form_validation->run()){
+
+        elseif(!$this->form_validation->run()){
             $this->load->view('form');
-        } else{
+       } else{
             echo "success";
         }
+
 
     }
 
