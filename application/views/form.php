@@ -25,6 +25,10 @@
 
     <p><?php echo form_submit('submit', 'create account'); ?></p>
 
+
+    <?php echo smiley_js(); ?>
+    <?php echo $smiley_table; ?>
+
     <p>Captcha Code: <?php echo $captcha; ?></p>
     <?php
         $data_form = array(

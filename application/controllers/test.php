@@ -58,6 +58,18 @@ class Test extends CI_Controller {
         $this->session->set_userdata('captcha', $cap['word']);
         $data['captcha']=$cap['image'];
 
+
+        //load smiley helper
+        $this->load->helper('smiley');
+        $this->load->library('table');
+
+        //get smileys & connect it to form page
+        $image_array = get_clickable_smileys(base_url().'smileys/', 'form');
+        //sorts smileys in a table format
+        $col_array = $this->table->make_columns($image_array,8);
+
+        $data['smiley_table'] = $this->table->generate($col_array);
+
         //$this->form_validation->test();
 
         $this->load->view('form',$data);
