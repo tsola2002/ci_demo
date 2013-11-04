@@ -25,7 +25,13 @@
 
     <p><?php echo form_submit('submit', 'create account'); ?></p>
 
-
+    <p>Captcha Code: <?php echo $captcha; ?></p>
+    <?php
+        $data_form = array(
+            'name' => 'captcha'
+        );
+        echo form_input($data_form);
+    ?>
 <?php echo form_close();?>
 </body>
 </html>

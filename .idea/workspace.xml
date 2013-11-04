@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23c6da6-469d-458e-8c7a-be76837ce74c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/MY_Form_validation.php" afterPath="$PROJECT_DIR$/application/libraries/MY_Form_validation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/autoload.php" afterPath="$PROJECT_DIR$/application/config/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/form.php" afterPath="$PROJECT_DIR$/application/views/form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/test.php" afterPath="$PROJECT_DIR$/application/controllers/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ci_demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383385188538" ignored="false" />
+    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383556501294" ignored="false" />
     <file path="/Sholly.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002030716" ignored="false" />
     <file path="/dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002460921" ignored="false" />
     <file path="/mycal.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371226985918" ignored="false" />
@@ -17,11 +18,11 @@
     <file path="/.gitignore" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371899232850" ignored="false" />
     <file path="/composer.json" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1378217225095" ignored="false" />
     <file path="/math_helper.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383381343367" ignored="false" />
-    <file path="/test.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383386213250" ignored="false" />
+    <file path="/test.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383558072643" ignored="false" />
     <file path="/date_helper.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383382501781" ignored="false" />
     <file path="/Foo.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383384218668" ignored="false" />
     <file path="/MY_Form_validation.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383388049473" ignored="false" />
-    <file path="/form.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383385495272" ignored="false" />
+    <file path="/form.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383557664862" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,46 @@
     <favorites_list name="ci_demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="test.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="8" selection-start="1659" selection-end="1659" vertical-scroll-proportion="0.336">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="47" selection-start="526" selection-end="526" vertical-scroll-proportion="-10.461538">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoload.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="39" selection-start="1669" selection-end="1669" vertical-scroll-proportion="-5.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="10" selection-start="677" selection-end="677" vertical-scroll-proportion="-17.76923">
+              <folding>
+                <element signature="e#6#120#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -55,7 +95,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="extending_the_CI_framework" />
       </map>
     </option>
   </component>
@@ -74,21 +114,22 @@
         <option value="$PROJECT_DIR$/application/views/view.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/helpers/math_helper.php" />
         <option value="$PROJECT_DIR$/application/helpers/date_helper.php" />
         <option value="$PROJECT_DIR$/application/libraries/Foo.php" />
-        <option value="$PROJECT_DIR$/application/views/form.php" />
-        <option value="$PROJECT_DIR$/application/controllers/test.php" />
         <option value="$PROJECT_DIR$/application/libraries/MY_Form_validation.php" />
+        <option value="$PROJECT_DIR$/application/views/form.php" />
+        <option value="$PROJECT_DIR$/application/config/autoload.php" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/controllers/test.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-34" />
-    <option name="y" value="-12" />
-    <option name="width" value="827" />
+    <option name="x" value="-128" />
+    <option name="y" value="-5" />
+    <option name="width" value="718" />
     <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -146,57 +187,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
+              <option name="myItemId" value="captcha" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -210,9 +201,9 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -301,20 +292,23 @@
       <created>1383385191363</created>
       <updated>1383385191363</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="created a sample form to test new extended library functions of MY_Form_validation.php">
+      <created>1383388289062</created>
+      <updated>1383388289062</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-34" y="-12" width="827" height="741" extended-state="0" />
-    <editor active="false" />
+    <frame x="-128" y="-5" width="718" height="741" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.6703645" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24052288" sideWeight="0.67140603" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3597561" sideWeight="0.67140603" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -324,6 +318,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -372,7 +367,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="extending an existing library(form validation) with our echo function &amp; testing it in test controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="created a sample form to test new extended library functions of MY_Form_validation.php" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -393,26 +388,12 @@
     <MESSAGE value="creating a standalone library with some functionality to be tested in test controller" />
     <MESSAGE value="adding access to codeigniter's  super object for  standalone llibrary to have access other libraries functionality" />
     <MESSAGE value="extending an existing library(form validation) with our echo function &amp; testing it in test controller" />
+    <MESSAGE value="created a sample form to test new extended library functions of MY_Form_validation.php" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CI_phpStorm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="12" selection-start="292" selection-end="292" vertical-scroll-proportion="0.52667814" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="39" selection-start="2740" selection-end="2740" vertical-scroll-proportion="0.38554215" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="6" selection-start="95" selection-end="95" vertical-scroll-proportion="0.08429752" />
@@ -425,62 +406,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/MY_Loader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="1" selection-start="67" selection-end="67" vertical-scroll-proportion="0.12686567">
-          <folding />
-        </state>
+        <state line="4" column="1" selection-start="67" selection-end="67" vertical-scroll-proportion="0.12686567" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/helpers/date_helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="436" column="8" selection-start="9308" selection-end="9308" vertical-scroll-proportion="9.688">
-          <folding />
-        </state>
+        <state line="436" column="8" selection-start="9308" selection-end="9308" vertical-scroll-proportion="9.688" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/helpers/math_helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0">
-          <folding>
-            <element signature="e#6#127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="47" selection-start="526" selection-end="526" vertical-scroll-proportion="-7.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="51" selection-start="469" selection-end="469" vertical-scroll-proportion="-10.730769">
-          <folding>
-            <element signature="e#6#120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="49" selection-start="1366" selection-end="1366" vertical-scroll-proportion="-10.538462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/libraries/MY_Form_validation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="34" selection-start="672" selection-end="672" vertical-scroll-proportion="0.41">
-          <folding />
-        </state>
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/libraries/Form_validation.php">
@@ -492,17 +433,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/Foo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="877" selection-end="877" vertical-scroll-proportion="0.804">
-          <folding />
-        </state>
+        <state line="36" column="0" selection-start="877" selection-end="877" vertical-scroll-proportion="0.804" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/helpers/date_helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="96" selection-start="270" selection-end="270" vertical-scroll-proportion="0.3915547">
+        <state line="12" column="96" selection-start="270" selection-end="270" vertical-scroll-proportion="0.3915547" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/MY_Form_validation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="34" selection-start="672" selection-end="672" vertical-scroll-proportion="0.55278313">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="39" selection-start="1669" selection-end="1669" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="47" selection-start="526" selection-end="526" vertical-scroll-proportion="-10.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="10" selection-start="677" selection-end="677" vertical-scroll-proportion="-17.76923">
           <folding>
-            <element signature="e#6#127#0" expanded="true" />
+            <element signature="e#6#120#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="8" selection-start="1659" selection-end="1659" vertical-scroll-proportion="0.336">
+          <folding />
         </state>
       </provider>
     </entry>

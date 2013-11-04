@@ -39,14 +39,35 @@ class Test extends CI_Controller {
     function form(){
         $this->load->library('form_validation');
 
+        //load captcha helper
+        $this->load->helper('captcha');
+
+        //adding values to captcha
+        $vals = array(
+            'img_path' => './captcha/',
+            'img_url' => base_url().'captcha/',
+            'img_width' => 150,
+            'img_height' => 30,
+            ''
+        );
+
+        //creating the captcha
+        $cap = create_captcha($vals);
+
+        //saving values into the captcha word key_value pair values into a session
+        $this->session->set_userdata('captcha', $cap['word']);
+        $data['captcha']=$cap['image'];
+
         //$this->form_validation->test();
 
-        $this->load->view('form');
+        $this->load->view('form',$data);
     }
 
     function form_submit(){
 
         $this->load->library('Form_validation');
+
+
 
         //set rules for validation of form
         $this->form_validation->set_rules('username', 'Username',
