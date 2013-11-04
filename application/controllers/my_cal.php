@@ -16,6 +16,9 @@ class My_cal extends CI_Controller {
         parent::__construct();
         //this loads the profiler
         //$this->output->enable_profiler(TRUE);
+
+        //this code enables caching in codeigniter for 15minutes
+        $this->output->cache(15);
     }
 
     function display($year = null, $month = null){
