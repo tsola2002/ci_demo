@@ -64,7 +64,7 @@ class Test extends CI_Controller {
         $this->load->library('table');
 
         //get smileys & connect it to form page
-        $image_array = get_clickable_smileys(base_url().'smileys/', 'form');
+        $image_array = get_clickable_smileys(base_url().'smileys/', 'comment');
         //sorts smileys in a table format
         $col_array = $this->table->make_columns($image_array,8);
 

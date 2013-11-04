@@ -2,54 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23c6da6-469d-458e-8c7a-be76837ce74c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/angry.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/bigsurprise.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/cheese.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/confused.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/downer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/embarrassed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/exclaim.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/grin.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/grrr.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/gulp.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/hmm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/kiss.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/lol.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/longface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/mad.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/ohh.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/ohoh.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/question.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/raspberry.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/rolleyes.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/shade_cheese.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/shade_grin.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/shade_hmm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/shade_mad.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/shade_smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/shade_smirk.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/shock.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/shuteye.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/sick.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/smirk.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/snake.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/surprise.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/tongue_laugh.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/tongue_rolleye.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/tongue_wink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/vampire.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/wink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/zip.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smileys/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/form.php" afterPath="$PROJECT_DIR$/application/views/form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/test.php" afterPath="$PROJECT_DIR$/application/controllers/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ci_demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383561012848" ignored="false" />
+    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383562838612" ignored="false" />
     <file path="/Sholly.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002030716" ignored="false" />
     <file path="/dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002460921" ignored="false" />
     <file path="/mycal.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371226985918" ignored="false" />
@@ -61,7 +20,7 @@
     <file path="/date_helper.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383382501781" ignored="false" />
     <file path="/Foo.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383384218668" ignored="false" />
     <file path="/MY_Form_validation.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383388049473" ignored="false" />
-    <file path="/form.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383562571323" ignored="false" />
+    <file path="/form.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1383564794919" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +47,7 @@
       <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="19" selection-start="1790" selection-end="1790" vertical-scroll-proportion="-12.192307">
+            <state line="66" column="76" selection-start="1728" selection-end="1728" vertical-scroll-proportion="-10.884615">
               <folding />
             </state>
           </provider>
@@ -115,7 +74,7 @@
       <file leaf-file-name="form.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="13" selection-start="627" selection-end="627" vertical-scroll-proportion="0.79">
+            <state line="50" column="37" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.864">
               <folding>
                 <element signature="e#6#120#0" expanded="true" />
               </folding>
@@ -166,8 +125,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="130" />
-    <option name="y" value="9" />
+    <option name="x" value="-35" />
+    <option name="y" value="-17" />
     <option name="width" value="718" />
     <option name="height" value="741" />
   </component>
@@ -332,12 +291,16 @@
       <created>1383561017797</created>
       <updated>1383561017797</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="smiley helper enabled with smiley functionality working &amp; displaying in browser">
+      <created>1383562846837</created>
+      <updated>1383562846837</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="130" y="9" width="718" height="741" extended-state="0" />
-    <editor active="false" />
+    <frame x="-35" y="-17" width="718" height="741" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -345,7 +308,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.6703645" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3597561" sideWeight="0.67140603" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3597561" sideWeight="0.67140603" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -403,7 +366,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="validation functionality implemented on form to check captchas" />
+    <option name="LAST_COMMIT_MESSAGE" value="smiley helper enabled with smiley functionality working &amp; displaying in browser" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -427,6 +390,7 @@
     <MESSAGE value="created a sample form to test new extended library functions of MY_Form_validation.php" />
     <MESSAGE value="created a captcha form below test form" />
     <MESSAGE value="validation functionality implemented on form to check captchas" />
+    <MESSAGE value="smiley helper enabled with smiley functionality working &amp; displaying in browser" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -507,14 +471,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="19" selection-start="1790" selection-end="1790" vertical-scroll-proportion="-12.192307">
+        <state line="66" column="76" selection-start="1728" selection-end="1728" vertical-scroll-proportion="-10.884615">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="13" selection-start="627" selection-end="627" vertical-scroll-proportion="0.79">
+        <state line="50" column="37" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.864">
           <folding>
             <element signature="e#6#120#0" expanded="true" />
           </folding>
