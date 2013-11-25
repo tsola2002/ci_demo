@@ -32,4 +32,27 @@ class Items extends CI_Controller {
         $this->load->view( 'footer', $data );
     }
 
+    function details() {
+    // ROUTE: item/{name}/{id}
+       // echo 'Hello, World!';
+
+        //set id variable to uri segment3
+        $id = $this->uri->segment( 3 );
+
+        //get the id frm models getfunction
+        $item = $this->Item->get( $id );
+
+        if ( ! $item ) {
+            $this->session->set_flashdata( 'error', 'Item not found.' );
+            redirect( 'items' );
+        }
+
+        $data['page_title'] = $item->name;
+        $data['item'] = $item;
+
+        $this->load->view( 'header', $data );
+        $this->load->view( 'items/details', $data );
+        $this->load->view( 'footer', $data );
+    }
+
 }

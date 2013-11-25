@@ -41,6 +41,7 @@
 $route['default_controller'] = "items";
 $route['404_override'] = '';
 
+$route['item/:any'] = 'items/details';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

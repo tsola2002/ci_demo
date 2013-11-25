@@ -21,4 +21,10 @@ class Items_model extends CI_Model {
         return $this->db->get('items')->result();
     }
 
+    function get( $id ) {
+        $r = $this->db->where( 'id', $id )->get( 'items' )->result();
+        if ( $r ) return $r[0];
+        return false;
+    }
+
 }
