@@ -18,7 +18,7 @@
     email you your download link to the address you enter below.</p>
 
 <?php
-$url_titleurl_title = url_title( $item->name, 'dash', true );
+$url_title = url_title( $item->name, 'dash', true );
 echo form_open( 'purchase/' . $url_title . '/' . $item->id );
 echo validation_errors( '<p class="error">', '</p>' );
 ?>
