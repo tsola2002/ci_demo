@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23c6da6-469d-458e-8c7a-be76837ce74c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/items/purchase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/Paypal_Lib.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/paypallib_config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/items.php" afterPath="$PROJECT_DIR$/application/controllers/items.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/items_model.php" afterPath="$PROJECT_DIR$/application/models/items_model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ci_demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1385388585792" ignored="false" />
+    <file path="/Dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1385389315902" ignored="false" />
     <file path="/Sholly.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002030716" ignored="false" />
     <file path="/dummy.txt" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1370002460921" ignored="false" />
     <file path="/mycal.php" changelist="c23c6da6-469d-458e-8c7a-be76837ce74c" time="1371226985918" ignored="false" />
@@ -54,7 +55,7 @@
       <file leaf-file-name="items.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/items.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="1" selection-start="2020" selection-end="2020" vertical-scroll-proportion="-14.461538">
+            <state line="73" column="0" selection-start="2092" selection-end="2092" vertical-scroll-proportion="-7.923077">
               <folding />
             </state>
           </provider>
@@ -78,12 +79,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="details.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="details.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/items/details.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="18" selection-start="357" selection-end="357" vertical-scroll-proportion="0.64016736">
+            <state line="18" column="18" selection-start="357" selection-end="357" vertical-scroll-proportion="-11.769231">
               <folding>
                 <element signature="e#6#123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paypallib_config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/paypallib_config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="2" selection-start="128" selection-end="128" vertical-scroll-proportion="-3.3461537">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Paypal_Lib.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/libraries/Paypal_Lib.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="8" selection-start="1983" selection-end="1983" vertical-scroll-proportion="105.15385">
+              <folding>
+                <element signature="e#6#126#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,28 +121,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7034" column="15" selection-start="132334" selection-end="132334" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="items_model.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="items_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/items_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="520" selection-end="520" vertical-scroll-proportion="-13.076923">
+            <state line="31" column="7" selection-start="606" selection-end="606" vertical-scroll-proportion="0.6087866">
               <folding />
             </state>
           </provider>
@@ -159,8 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/view.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
@@ -169,12 +170,14 @@
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/application/views/items/index.php" />
-        <option value="$PROJECT_DIR$/application/models/items_model.php" />
         <option value="$PROJECT_DIR$/application/views/header.php" />
         <option value="$PROJECT_DIR$/application/views/items/details.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
-        <option value="$PROJECT_DIR$/application/controllers/items.php" />
         <option value="$PROJECT_DIR$/application/views/items/purchase.php" />
+        <option value="$PROJECT_DIR$/application/config/paypallib_config.php" />
+        <option value="$PROJECT_DIR$/application/libraries/Paypal_Lib.php" />
+        <option value="$PROJECT_DIR$/application/controllers/items.php" />
+        <option value="$PROJECT_DIR$/application/models/items_model.php" />
       </list>
     </option>
   </component>
@@ -271,29 +274,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ci_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="items" />
+              <option name="myItemId" value="libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,7 +372,11 @@
       <created>1385388588470</created>
       <updated>1385388588470</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="created purchase page with metedata included in the page">
+      <created>1385389321326</created>
+      <updated>1385389321326</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -402,9 +387,9 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.6703645" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29268292" sideWeight="0.32820514" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2942073" sideWeight="0.67140603" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29268292" sideWeight="0.6700855" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -462,7 +447,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add single item view functionality to the application" />
+    <option name="LAST_COMMIT_MESSAGE" value="created purchase page with metedata included in the page" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -481,21 +466,12 @@
     <MESSAGE value="setting up database &amp; config variables for paypal project" />
     <MESSAGE value="view paypal cart items in database" />
     <MESSAGE value="add single item view functionality to the application" />
+    <MESSAGE value="created purchase page with metedata included in the page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="93" selection-end="93" vertical-scroll-proportion="0.14003295" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="1" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/core/MY_Loader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
@@ -554,13 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/items_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="520" selection-end="520" vertical-scroll-proportion="-13.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="56" selection-start="1026" selection-end="1026" vertical-scroll-proportion="-9.884615">
@@ -575,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/items.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="1" selection-start="2020" selection-end="2020" vertical-scroll-proportion="-14.461538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/items/purchase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="17" selection-start="102" selection-end="102" vertical-scroll-proportion="-2.5384614">
@@ -591,10 +553,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/items/details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="18" selection-start="357" selection-end="357" vertical-scroll-proportion="0.64016736">
+        <state line="18" column="18" selection-start="357" selection-end="357" vertical-scroll-proportion="-11.769231">
           <folding>
             <element signature="e#6#123#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/paypallib_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="2" selection-start="128" selection-end="128" vertical-scroll-proportion="-3.3461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/items.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="2092" selection-end="2092" vertical-scroll-proportion="-7.923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/Paypal_Lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="8" selection-start="1983" selection-end="1983" vertical-scroll-proportion="105.15385">
+          <folding>
+            <element signature="e#6#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/items_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="7" selection-start="606" selection-end="606" vertical-scroll-proportion="0.6087866">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -64,6 +64,30 @@ class Items extends CI_Controller {
             redirect( 'items' );
         }
 
+        $this->form_validation->set_rules( 'email', 'Email', 'required|valid_email|max_length[127]' );
+
+        if ( $this->form_validation->run() ) {
+            $email = $this->input->post( 'email' );
+
+            $key = md5( $item_id . time() . $email . rand() );
+            $this->Item->setup_payment( $item->id, $email, $key );
+
+            $this->load->library( 'Paypal_Lib' );
+            $this->paypal_lib->add_field( 'business', $this->config->item( 'paypal_email' ));
+            $this->paypal_lib->add_field( 'return', site_url( 'paypal/success' ) );
+            $this->paypal_lib->add_field( 'cancel_return', site_url( 'paypal/cancel' ) );
+            $this->paypal_lib->add_field( 'notify_url', site_url( 'paypal/ipn' ) ); // <-- IPN url
+
+            $this->paypal_lib->add_field( 'item_name', $item->name );
+            $this->paypal_lib->add_field( 'item_number', '1' );
+            $this->paypal_lib->add_field( 'amount', $item->price );
+
+            $this->paypal_lib->add_field( 'custom', $key );
+
+            redirect( $this->paypal_lib->paypal_get_request_link() );
+        }
+
+
         $data['page_title'] = 'Purchase &ldquo;' . $item->name . '&rdquo;';
         $data['item'] = $item;
 

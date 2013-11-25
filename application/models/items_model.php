@@ -27,4 +27,14 @@ class Items_model extends CI_Model {
         return false;
     }
 
+    function setup_payment( $item_id, $email, $key ) {
+        $data = array(
+            'item_id'  => $item_id,
+            'key'      => $key,
+            'email'    => $email,
+            'active'   => 0 // hasn't been purchased yet
+        );
+        $this->db->insert( 'purchases', $data );
+    }
+
 }
