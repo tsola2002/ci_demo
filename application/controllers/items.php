@@ -96,4 +96,33 @@ class Items extends CI_Controller {
         $this->load->view( 'footer', $data );
     }
 
+    function download() {
+    // ROUTE: download/{purchase_key}
+        $key = $this->uri->segment( 2 );
+        $purchase = $this->Item->get_purchase_by_key( $key );
+
+        // Check purchase was fulfilled
+        if ( ! $purchase ) {
+            $this->session->set_flashdata( 'error', 'Download key not valid.' );
+            redirect( 'items' );
+        }
+        if ( $purchase->active == 0 ) {
+            $this->session->set_flashdata( 'error', 'Download not active.' );
+            redirect( 'items' );
+        }
+
+        // Get item and initiate download if exists
+        $item = $this->Item->get( $purchase->item_id );
+
+        $file_name = $item->file_name;
+        $file_data = read_file( 'files/' . $file_name );
+
+        if ( ! $file_data ) { // file not found on server
+            $this->session->set_flashdata( 'error', 'The requested file was not found. Please contact us to resolve this.' );
+            redirect( 'items' );
+        }
+
+        force_download( $file_name, $file_data );
+    }
+
 }

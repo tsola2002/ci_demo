@@ -47,5 +47,8 @@ $route['item/:any'] = 'items/details';
 //add a new route to direct requests for a 'purchase' link to 'items/purchase' instead
 $route['purchase/:any'] = 'items/purchase';
 
+//add a new route to direct requests for a 'download' link to 'items/download' instead
+$route['download/:any'] = 'items/download';
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

@@ -34,4 +34,71 @@ class Paypal extends CI_Controller {
         redirect( 'items' );
     }
 
+
+
+    function ipn() {
+        if ( $this->paypal_lib->validate_ipn() ) {
+            $item_name = $this->paypal_lib->ipn_data['item_name'];
+            $price = $this->paypal_lib->ipn_data['mc_gross'];
+            $currency = $this->paypal_lib->ipn_data['mc_currency'];
+            $payer_email = $this->paypal_lib->ipn_data['payer_email'];
+            $txn_id = $this->paypal_lib->ipn_data['txn_id'];
+            $key = $this->paypal_lib->ipn_data['transaction_subject'];
+
+            $this->Item->confirm_payment( $key, $payer_email, $txn_id );
+            $purchase = $this->Item->get_purchase_by_key( $key );
+            $item = $this->Item->get( $purchase->item_id );
+
+        }
+        // Send download link to customer
+        $to = $purchase->email;
+        $from = $this->config->item( 'no_reply_email' );
+        $name = $this->config->item( 'site_name' );
+        $subject = $item->name . ' Download';
+
+        $segments = array( 'item', url_title( $item->name, 'dash', true ), $item->id );
+        $message = '<p>Thanks for purchasing ' . anchor( $segments, $item->name ) . ' from ' . anchor( '', $name ) . '. Your download link is below.</p>';
+        $message .= '<p>' . anchor( 'download/' . $key ) . '</p>';
+
+        $this->email->from( $from, $name );
+        $this->email->to( $to );
+        $this->email->subject( $subject );
+        $this->email->message( $message );
+        $this->email->send();
+        $this->email->clear();
+
+        // Send confirmation of purchase to admin
+        $message = '<p><strong>New Purchase:</strong></p><ul>';
+        $message .= '<li><strong>Item:</strong> ' . anchor( $segments, $item->name ) . '</li>';
+        $message .= '<li><strong>Price:</strong> $' . $item->price . '</li>';
+        $message .= '<li><strong>Email:</strong> ' . $purchase->email . '</li><li></li>';
+        $message .= '<li><strong>PayPal Email:</strong> ' . $payer_email . '</li>';
+        $message .= '<li><strong>PayPal TXN ID:</strong> ' . $txn_id . '</li></ul>';
+        $this->email->from( $from, $name );
+        $this->email->to( $this->config->item( 'admin_email' ) );
+        $this->email->subject( 'A purchase has been made' );
+        $this->email->message( $message );
+        $this->email->send();
+        $this->email->clear();
+    }
+
+    function confirm_payment( $key, $paypal_email, $payment_txn_id ) {
+        $data = array(
+            'purchased_at'  => time(),
+            'active'        => 1,
+            'paypal_email'  => $paypal_email,
+            'paypal_txn_id' => $paypal_txn_id
+        );
+        $this->db->where( 'key', $key );
+        $this->db->update( 'purchases', $data );
+    }
+
+    function get_purchase_by_key( $key ) {
+        $r = $this->db->where( 'key', $key )->get( 'purchases' )->result();
+        if ( $r ) return $r[0];
+        return false;
+    }
+
+
+
 }
