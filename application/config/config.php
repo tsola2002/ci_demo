@@ -2,6 +2,61 @@
 
 /*
 |--------------------------------------------------------------------------
+| Website Name
+|--------------------------------------------------------------------------
+|
+| Will be used on page title bars, in emails etc.
+|
+*/
+$config['site_name'] = "Digital Goods";
+
+/*
+|--------------------------------------------------------------------------
+| Admin Email
+|--------------------------------------------------------------------------
+|
+| Used to send confirmations of purchases
+|
+*/
+$config['admin_email'] = "dan@example.com";
+
+/*
+|--------------------------------------------------------------------------
+| No-Reply Email
+|--------------------------------------------------------------------------
+|
+| The 'No-Reply' address used to send out file downloads
+|
+*/
+$config['no_reply_email'] = "noreply@example.com";
+
+/*
+|--------------------------------------------------------------------------
+| PayPal Account
+|--------------------------------------------------------------------------
+|
+| The email address PayPal payments should be made to
+|
+*/
+$config['paypal_email'] = "paypal@example.com";
+
+/*
+|--------------------------------------------------------------------------
+| Download Limit
+|--------------------------------------------------------------------------
+|
+| How many times can an item be downloaded within a certain time frame?
+|   eg. 4 downloads within 7 days
+|
+*/
+$config['download_limit'] = array(
+    'enable'    => false,
+    'downloads' => '4',
+    'days'      => '7'
+);
+
+/*
+|--------------------------------------------------------------------------
 | Base Site URL
 |--------------------------------------------------------------------------
 |
@@ -14,7 +69,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= '';
+$config['base_url']	= 'http://localhost/ci_demo/';
 
 /*
 |--------------------------------------------------------------------------
