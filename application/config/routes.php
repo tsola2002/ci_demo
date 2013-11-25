@@ -41,7 +41,11 @@
 $route['default_controller'] = "items";
 $route['404_override'] = '';
 
+//What this piece of code does is internally forward all requests to item/ (an 'item' controller) to items/details ('items' controller - 'details' method).
 $route['item/:any'] = 'items/details';
+
+//add a new route to direct requests for a 'purchase' link to 'items/purchase' instead
+$route['purchase/:any'] = 'items/purchase';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

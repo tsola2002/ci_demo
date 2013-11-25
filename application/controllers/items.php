@@ -55,4 +55,21 @@ class Items extends CI_Controller {
         $this->load->view( 'footer', $data );
     }
 
+    function purchase() { // ROUTE: purchase/{name}/{id}
+        $item_id = $this->uri->segment( 3 );
+        $item = $this->Item->get( $item_id );
+
+        if ( ! $item ) {
+            $this->session->set_flashdata( 'error', 'Item not found.' );
+            redirect( 'items' );
+        }
+
+        $data['page_title'] = 'Purchase &ldquo;' . $item->name . '&rdquo;';
+        $data['item'] = $item;
+
+        $this->load->view( 'header', $data );
+        $this->load->view( 'items/purchase', $data );
+        $this->load->view( 'footer', $data );
+    }
+
 }
