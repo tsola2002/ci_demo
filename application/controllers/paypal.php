@@ -37,6 +37,8 @@ class Paypal extends CI_Controller {
 
 
     function ipn() {
+        /*Right at the start we validate the data sent to the listener with PayPal
+        the library takes care of all this. If the data is valid, we grab a some details (the item name, price, currency, the payer's PayPal email address, the transaction ID and the unique key we sent to PayPal when the payment process began).*/
         if ( $this->paypal_lib->validate_ipn() ) {
             $item_name = $this->paypal_lib->ipn_data['item_name'];
             $price = $this->paypal_lib->ipn_data['mc_gross'];
@@ -51,6 +53,7 @@ class Paypal extends CI_Controller {
 
         }
         // Send download link to customer
+        /*Here we're using CodeIgniter's Email class to send the email. We start by setting up 'To', 'From', 'Name' and 'Subject' variables with the relevant data.*/
         $to = $purchase->email;
         $from = $this->config->item( 'no_reply_email' );
         $name = $this->config->item( 'site_name' );
@@ -82,6 +85,8 @@ class Paypal extends CI_Controller {
         $this->email->clear();
     }
 
+
+   /*We can then use the key to confirm the payment (by setting the 'active' field to '1') and add the payer's PayPal email and transaction ID to the database for future reference.*/
     function confirm_payment( $key, $paypal_email, $payment_txn_id ) {
         $data = array(
             'purchased_at'  => time(),
@@ -89,10 +94,13 @@ class Paypal extends CI_Controller {
             'paypal_email'  => $paypal_email,
             'paypal_txn_id' => $paypal_txn_id
         );
+        //locate item record key matches generated key
+        //update the record with above data array
         $this->db->where( 'key', $key );
         $this->db->update( 'purchases', $data );
     }
 
+    //we use the purchase key the retrieve purchase details
     function get_purchase_by_key( $key ) {
         $r = $this->db->where( 'key', $key )->get( 'purchases' )->result();
         if ( $r ) return $r[0];

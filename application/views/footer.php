@@ -13,7 +13,7 @@
 </section>
 
 <footer>
-    <?php $copyright = ( date( 'Y' > 2013 ) ) ? '2013&ndash;' . date( 'Y' ) : '2013'; ?>
+    <?php $copyright = ( date( 'Y' > 2014 ) ) ? '2010&ndash;' . date( 'Y' ) : '2013'; ?>
     <p><small>
             Copyright &copy; <?php echo anchor( '', $site_name ) . ' ' . $copyright; ?>.
         </small></p>

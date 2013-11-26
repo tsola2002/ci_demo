@@ -18,6 +18,9 @@
     email you your download link to the address you enter below.</p>
 
 <?php
+
+/*Here we use CodeIgniter's form helper to create the opening tag for the form which directs back to the current page.
+ In the form we collect the user's email address so we can send them their download link after once we receive confirmation of their purchase from PayPal.*/
 $url_title = url_title( $item->name, 'dash', true );
 echo form_open( 'purchase/' . $url_title . '/' . $item->id );
 echo validation_errors( '<p class="error">', '</p>' );

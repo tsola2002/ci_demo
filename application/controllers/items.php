@@ -15,7 +15,7 @@ class Items extends CI_Controller {
     public function __construct()
     {
         parent::__construct();
-        //load items model as $item variable
+        //load items_model model as $item variable
         $this->load->model( 'items_model', 'Item' );
         //load site name from config file variables
         $data['site_name'] = $this->config->item( 'site_name' );
@@ -25,7 +25,9 @@ class Items extends CI_Controller {
 
     public function index(){
         //echo 'Hello, World!';
+        //set page title to be used in site
         $data['page_title'] = 'All Items';
+        //access all items from model
         $data['items'] = $this->Item->get_all();
         $this->load->view( 'header', $data );
         $this->load->view( 'items/index', $data );
@@ -39,7 +41,7 @@ class Items extends CI_Controller {
         //set id variable to uri segment3
         $id = $this->uri->segment( 3 );
 
-        //get the id frm models getfunction
+        //use models get function to match url  segment id with datbase id
         $item = $this->Item->get( $id );
 
         if ( ! $item ) {
@@ -55,8 +57,11 @@ class Items extends CI_Controller {
         $this->load->view( 'footer', $data );
     }
 
-    function purchase() { // ROUTE: purchase/{name}/{id}
+    function purchase() {
+        // ROUTE: purchase/{name}/{id}
+        //set id variable to uri segment3
         $item_id = $this->uri->segment( 3 );
+        //use models get function to match url  segment id with datbase id
         $item = $this->Item->get( $item_id );
 
         if ( ! $item ) {
@@ -64,14 +69,22 @@ class Items extends CI_Controller {
             redirect( 'items' );
         }
 
+        //validate form input
         $this->form_validation->set_rules( 'email', 'Email', 'required|valid_email|max_length[127]' );
 
+        //check to see that for passes validation
         if ( $this->form_validation->run() ) {
             $email = $this->input->post( 'email' );
 
+            //generate unique key to reference purchase
             $key = md5( $item_id . time() . $email . rand() );
+
+            //insert item into database through models setup_payment function
             $this->Item->setup_payment( $item->id, $email, $key );
 
+
+            /*The rest of the code loads the 'Paypal_Lib' library and adds details about the item and site using the PayPal library's functions.
+             We also pass the random key we generated to PayPal using the 'custom' field. PayPal will send this key back to us upon payment confirmation so we can activate the user's download.*/
             $this->load->library( 'Paypal_Lib' );
             $this->paypal_lib->add_field( 'business', $this->config->item( 'paypal_email' ));
             $this->paypal_lib->add_field( 'return', site_url( 'paypal/success' ) );
