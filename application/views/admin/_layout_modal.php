@@ -14,21 +14,23 @@
 
 <?php $this->load->view('admin/components/page_head'); ?>
 
-<body style="background: #555;">
+<body style="background: #e7e7e7;">
 
 <div class="modal show" role="dialog">
 
-    <?php $this->load->view($subview); // Subview is set in controller ?>
-    <div class="modal-header">
-        <h3>Log in</h3>
-    </div>
-    <div class="modal-body"></div>
-    <div class="modal-footer">
-        &copy; <?php echo date('Y'); ?> <?php echo $meta_title; ?>
-    </div>
-</div>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <?php $this->load->view($subview); // Subview is set in controller ?>
+            <div class="modal-footer">
+                &copy; <?php echo date('Y'); ?> <?php echo $meta_title; ?>
+            </div>
+        </div><!--end of modal content-->
+    </div><!--end of .modal-dialog-->
+</div><!--end of .modal-->
 
 
 
 
-<?php $this->load->view('admin/components/page_head'); ?>
+
+
+<?php $this->load->view('admin/components/page_tail'); ?>

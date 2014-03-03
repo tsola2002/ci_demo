@@ -10,19 +10,19 @@
  */-->
 
 <!-- Main content -->
-<div class="span9">
+<div class="col col-lg-9">
     <div class="row">
         <!--page article must be set before we can get the excerpt-->
-        <div class="span9"><?php if(isset($articles[0])) echo get_excerpt($articles[0]); ?></div>
+        <div class="col col-lg-9"><?php if(isset($articles[0])) echo get_excerpt($articles[0]); ?></div><!--end of sub1span9-->
     </div>
     <div class="row">
-        <div class="span5"><?php if(isset($articles[1])) echo get_excerpt($articles[1]); ?></div>
-        <div class="span4"><?php if(isset($articles[2])) echo get_excerpt($articles[2]); ?></div>
+        <div class="col col-lg-5"><?php if(isset($articles[1])) echo get_excerpt($articles[1]); ?></div>
+        <div class="col col-lg-4"><?php if(isset($articles[2])) echo get_excerpt($articles[2]); ?></div>
     </div>
 </div>
 
 <!-- Sidebar -->
-<div class="span3 sidebar">
+<div class="col col-lg-3 sidebar">
     <h2>Recent news</h2>
     <!--passing in dynamic news archive link-->
     <?php echo anchor($news_archive_link, '+ News archive'); ?>

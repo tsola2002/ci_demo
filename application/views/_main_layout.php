@@ -13,18 +13,18 @@
 
 
 <body>
+<nav class="navbar navbar-fixed-top navbar-default navbar-inverse" role="navigation">
+    <div id="collapse" class="collapse navbar-collapse">
 
-<div class="container">
-    <section>
-        <h1><?php echo config_item('site_name'); ?></h1>
-    </section>
-    <div class="navbar">
-        <div class="navbar-inner">
-            <div class="container">
-                <?php echo get_menu($menu); ?>
-            </div>
-        </div>
+        <?php echo get_menu($menu); ?>
+
     </div>
+</nav><!--  end of nav  -->
+<div class="container heading">
+        <section>
+            <h1><?php echo anchor('', strtoupper(config_item('site_name'))); ?></h1>
+        </section>
+
 </div>
 
 <div class="container">
@@ -33,4 +33,6 @@
         <?php $this->load->view('templates/' . $subview); ?>
     </div>
 </div>
+
+
 <?php $this->load->view('components/page_tail');?>

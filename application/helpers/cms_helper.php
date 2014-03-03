@@ -21,12 +21,12 @@ function add_meta_title ($string)
 function btn_edit ($uri)
 {
     //return anchor tag with bootstrap icon
-    return anchor($uri, '<i class="icon-edit"></i>');
+    return anchor($uri, '<span class="glyphicon glyphicon-edit"></span>');
 }
 
 function btn_delete ($uri)
 {
-    return anchor($uri, '<i class="icon-remove"></i>', array(
+    return anchor($uri, '<span class="glyphicon glyphicon-remove"></span>', array(
         'onclick' => "return confirm('You are about to delete a record. This cannot be undone. Are you sure?');"
     ));
 }
@@ -75,7 +75,7 @@ function get_menu ($array, $child = FALSE)
 
     //ul should hava a class of nav
     if (count($array)) {
-        $str .= $child == FALSE ? '<ul class="nav">' . PHP_EOL : '<ul class="dropdown-menu">' . PHP_EOL;
+        $str .= $child == FALSE ? '<ul class="nav navbar-nav">' . PHP_EOL : '<ul class="dropdown-menu">' . PHP_EOL;
 
         foreach ($array as $item) {
             //conditional to check whether first segment equals to item slug
@@ -84,7 +84,7 @@ function get_menu ($array, $child = FALSE)
                 //add class of active to opening tag if active is true
                 $str .= $active ? '<li class="dropdown active">' : '<li class="dropdown">';
                 $str .= '<a  class="dropdown-toggle" data-toggle="dropdown" href="' . site_url(e($item['slug'])) . '">' . e($item['title']);
-                $str .= '<b class="caret"></b></a>' . PHP_EOL;
+                $str .= '<span class="caret"></span></a>' . PHP_EOL;
                 $str .= get_menu($item['children'], TRUE);
             }
             else {

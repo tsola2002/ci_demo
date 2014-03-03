@@ -13,7 +13,7 @@
 
 
 <!-- Main content -->
-<div class="span9">
+<div class="col col-lg-9">
     <article>
         <!--echo escape function to pass in the page title-->
         <h2><?php echo e($page->title); ?></h2>
@@ -22,7 +22,7 @@
 </div>
 
 <!-- Sidebar -->
-<div class="span3 sidebar">
+<div class="col col-lg-3 sidebar">
     <h2>Recent news</h2>
     <?php $this->load->view('sidebar'); ?>
 </div>

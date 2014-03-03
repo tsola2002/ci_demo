@@ -13,7 +13,7 @@
 <section>
     <h2>Users</h2>
   <!--  codeigniter anchor-->
-    <?php echo anchor('admin/user/edit', '<i class="icon-plus"></i> Add a user'); ?>
+    <?php echo anchor('admin/user/edit', '<span class="glyphicon glyphicon-plus"></span> Add a user'); ?>
     <table class="table table-striped">
         <thead>
         <tr>
