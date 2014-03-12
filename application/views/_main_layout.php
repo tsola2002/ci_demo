@@ -14,6 +14,14 @@
 
 <body>
 <nav class="navbar navbar-fixed-top navbar-default navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
     <div id="collapse" class="collapse navbar-collapse">
 
         <?php echo get_menu($menu); ?>
