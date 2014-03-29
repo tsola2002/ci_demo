@@ -1,3 +1,24 @@
+/*HEADER STYLES*/
+#wrap {
+  background: #fff7e7;
+}
+ul.nav li.dropdown:hover ul.dropdown-menu {
+  display: block;
+}
+h1 a {
+  display: inline;
+  background: url('../img/porto_logo.png') no-repeat;
+  height: 70px;
+  padding: 0 0 0 140px;
+  color: #428bca;
+}
+.heading {
+  padding-top: 45px;
+}
+h1 a:hover {
+  text-decoration: none;
+  color: black;
+}
 /*ADMIN PAGE SPECIFIC STYLES*/
 .placeholder {
   border: 1px dashed #4183C4;
@@ -42,24 +63,6 @@ ol.sortable {
   background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
   background: -o-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
   background: -ms-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
-}
-/*this style targets twitter bootstrap dropdown list*/
-ul.nav li.dropdown:hover ul.dropdown-menu {
-  display: block;
-}
-h1 a {
-  display: inline;
-  background: url('../img/porto_logo.png') no-repeat;
-  height: 70px;
-  padding: 0 0 0 140px;
-  color: #428bca;
-}
-.heading {
-  padding-top: 45px;
-}
-h1 a:hover {
-  text-decoration: none;
-  color: black;
 }
 p.pubdate {
   font-style: italic;
